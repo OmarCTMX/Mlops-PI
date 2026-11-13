@@ -1,0 +1,56 @@
+[
+  {
+    "id": "V1",
+    "description": "Inferencias reales atribuibles a un modelo identificado",
+    "passed": true,
+    "detail": "144 inferencias ok; sha256 del run C0C3F76D93FA… coincide con el archivo del repo"
+  },
+  {
+    "id": "V2",
+    "description": "Confianza y clase coinciden con la salida top-k del modelo (no inyectadas)",
+    "passed": true,
+    "detail": "144/144 eventos consistentes"
+  },
+  {
+    "id": "V3",
+    "description": "Capturas vinculadas existen en disco (sin expiración automática)",
+    "passed": true,
+    "detail": "97/97 capturas resuelven"
+  },
+  {
+    "id": "V4",
+    "description": "Cada alerta enlaza regla, configuración, eventos, motivo, severidad y acción",
+    "passed": true,
+    "detail": "2 alertas"
+  },
+  {
+    "id": "V5",
+    "description": "Métricas recalculadas de forma independiente coinciden con las almacenadas",
+    "passed": true,
+    "detail": "13/13"
+  },
+  {
+    "id": "V6",
+    "description": "Las reglas registraron evaluaciones (incluida la evidencia insuficiente)",
+    "passed": true,
+    "detail": "firing=20, insufficient_evidence=5, ok=52, pending=1"
+  },
+  {
+    "id": "S2.a",
+    "description": "Se disparó la regla de cambio sostenido R-SHIFT",
+    "passed": true,
+    "detail": "1 alertas"
+  },
+  {
+    "id": "S2.b",
+    "description": "La alerta registra la caída frente a la referencia y la persistencia",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "id": "S2.c",
+    "description": "Hubo evidencia suficiente previa (no se disparó con datos insuficientes)",
+    "passed": true,
+    "detail": "52 inferencias previas"
+  }
+]

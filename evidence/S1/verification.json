@@ -1,0 +1,62 @@
+[
+  {
+    "id": "V1",
+    "description": "Inferencias reales atribuibles a un modelo identificado",
+    "passed": true,
+    "detail": "91 inferencias ok; sha256 del run C0C3F76D93FA… coincide con el archivo del repo"
+  },
+  {
+    "id": "V2",
+    "description": "Confianza y clase coinciden con la salida top-k del modelo (no inyectadas)",
+    "passed": true,
+    "detail": "91/91 eventos consistentes"
+  },
+  {
+    "id": "V3",
+    "description": "Capturas vinculadas existen en disco (sin expiración automática)",
+    "passed": true,
+    "detail": "10/10 capturas resuelven"
+  },
+  {
+    "id": "V4",
+    "description": "Cada alerta enlaza regla, configuración, eventos, motivo, severidad y acción",
+    "passed": true,
+    "detail": "1 alertas"
+  },
+  {
+    "id": "V5",
+    "description": "Métricas recalculadas de forma independiente coinciden con las almacenadas",
+    "passed": true,
+    "detail": "13/13"
+  },
+  {
+    "id": "V6",
+    "description": "Las reglas registraron evaluaciones (incluida la evidencia insuficiente)",
+    "passed": true,
+    "detail": "firing=2, insufficient_evidence=5, ok=49"
+  },
+  {
+    "id": "S1.a",
+    "description": "Se detectó la interrupción (alerta R-STALE)",
+    "passed": true,
+    "detail": "1 alertas"
+  },
+  {
+    "id": "S1.b",
+    "description": "Hubo fallos de lectura e intentos de reconexión",
+    "passed": true,
+    "detail": "{'captured': 450, 'dropped': 359, 'invalid_frame': 2, 'read_fail': 1, 'reconnect_attempt': 5, 'reconnect_ok': 1}"
+  },
+  {
+    "id": "S1.c",
+    "description": "La fuente se recuperó (reconnect_ok) y la alerta se resolvió",
+    "passed": true,
+    "detail": "reconnect_ok=1"
+  },
+  {
+    "id": "S1.d",
+    "description": "Verificación posterior: hay inferencias reales tras la recuperación",
+    "passed": true,
+    "detail": "55 inferencias posteriores"
+  }
+]

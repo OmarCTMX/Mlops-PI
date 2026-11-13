@@ -1,0 +1,18 @@
+Recálculo independiente de métricas para S4-20261113-105503
+
+metric_id                       almacenado     recalculado       n  resultado
+G1_inference_ms_p95               7.978440        7.978440      57  OK
+G2_processing_fps                 0.941278        0.941278      57  OK
+G3_process_rss_mb               128.877109      128.877109      29  OK
+G4_low_conf_share                 0.052632        0.052632      57  OK
+G5_trace_coverage                 1.000000        1.000000      57  OK
+G6_version_match_share            0.000000        0.000000      57  OK
+G7_active_alerts                  1.000000        1.000000       1  OK
+X1_capture_fps                    4.655728        4.655728     278  OK
+X2_dropped_share                  0.794964        0.794964     278  OK
+X3_process_cpu_pct              307.982759      307.982759      29  OK
+X4_e2e_ms_p95                   242.786694      242.786694      57  OK
+X5_confidence_psi                 0.629374        0.629374      57  OK
+X6_invalid_input_rate             0.000000        0.000000      57  OK
+
+Coinciden 13/13 métricas

@@ -1,0 +1,499 @@
+{"detail": "F-S4-20261113-105503-000001 shot.jpg", "kind": "captured", "obs_id": 5681, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588904.1442053}
+{"detail": "F-S4-20261113-105503-000002 shot.jpg", "kind": "captured", "obs_id": 5682, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588904.2554336}
+{"detail": "F-S4-20261113-105503-000002", "kind": "dropped", "obs_id": 5683, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588904.2554336}
+{"detail": "F-S4-20261113-105503-000003 shot.jpg", "kind": "captured", "obs_id": 5684, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588904.4699945}
+{"detail": "F-S4-20261113-105503-000003", "kind": "dropped", "obs_id": 5685, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588904.4699945}
+{"detail": "F-S4-20261113-105503-000004 shot.jpg", "kind": "captured", "obs_id": 5686, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588904.6709983}
+{"detail": "F-S4-20261113-105503-000004", "kind": "dropped", "obs_id": 5687, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588904.6709983}
+{"detail": "F-S4-20261113-105503-000005 shot.jpg", "kind": "captured", "obs_id": 5688, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588904.9366944}
+{"detail": "F-S4-20261113-105503-000005", "kind": "dropped", "obs_id": 5689, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588904.9366944}
+{"detail": "F-S4-20261113-105503-000006 shot.jpg", "kind": "captured", "obs_id": 5690, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588905.0792952}
+{"detail": "F-S4-20261113-105503-000006", "kind": "dropped", "obs_id": 5691, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588905.0792952}
+{"detail": "F-S4-20261113-105503-000007 shot.jpg", "kind": "captured", "obs_id": 5692, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588905.2749317}
+{"detail": "F-S4-20261113-105503-000008 shot.jpg", "kind": "captured", "obs_id": 5693, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588905.4841762}
+{"detail": "F-S4-20261113-105503-000008", "kind": "dropped", "obs_id": 5694, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588905.4841762}
+{"detail": "F-S4-20261113-105503-000009 shot.jpg", "kind": "captured", "obs_id": 5695, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588905.7088625}
+{"detail": "F-S4-20261113-105503-000009", "kind": "dropped", "obs_id": 5696, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588905.7088625}
+{"detail": "F-S4-20261113-105503-000010 shot.jpg", "kind": "captured", "obs_id": 5697, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588905.8948314}
+{"detail": "F-S4-20261113-105503-000010", "kind": "dropped", "obs_id": 5698, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588905.8948314}
+{"detail": "F-S4-20261113-105503-000011 shot.jpg", "kind": "captured", "obs_id": 5699, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588906.1016035}
+{"detail": "F-S4-20261113-105503-000011", "kind": "dropped", "obs_id": 5700, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588906.1016035}
+{"detail": "F-S4-20261113-105503-000012 shot.jpg", "kind": "captured", "obs_id": 5701, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588906.303094}
+{"detail": "F-S4-20261113-105503-000013 shot.jpg", "kind": "captured", "obs_id": 5702, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588906.5320792}
+{"detail": "F-S4-20261113-105503-000013", "kind": "dropped", "obs_id": 5703, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588906.5320792}
+{"detail": "F-S4-20261113-105503-000014 shot.jpg", "kind": "captured", "obs_id": 5704, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588906.7296019}
+{"detail": "F-S4-20261113-105503-000014", "kind": "dropped", "obs_id": 5705, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588906.7306066}
+{"detail": "F-S4-20261113-105503-000015 shot.jpg", "kind": "captured", "obs_id": 5706, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588906.9201157}
+{"detail": "F-S4-20261113-105503-000015", "kind": "dropped", "obs_id": 5707, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588906.9201157}
+{"detail": "F-S4-20261113-105503-000016 shot.jpg", "kind": "captured", "obs_id": 5708, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588907.122204}
+{"detail": "F-S4-20261113-105503-000016", "kind": "dropped", "obs_id": 5709, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588907.122204}
+{"detail": "F-S4-20261113-105503-000017 shot.jpg", "kind": "captured", "obs_id": 5710, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588907.353256}
+{"detail": "F-S4-20261113-105503-000018 shot.jpg", "kind": "captured", "obs_id": 5711, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588907.5270355}
+{"detail": "F-S4-20261113-105503-000018", "kind": "dropped", "obs_id": 5712, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588907.5270355}
+{"detail": "F-S4-20261113-105503-000019 shot.jpg", "kind": "captured", "obs_id": 5713, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588907.7374904}
+{"detail": "F-S4-20261113-105503-000019", "kind": "dropped", "obs_id": 5714, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588907.7374904}
+{"detail": "F-S4-20261113-105503-000020 shot.jpg", "kind": "captured", "obs_id": 5715, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588907.9213796}
+{"detail": "F-S4-20261113-105503-000020", "kind": "dropped", "obs_id": 5716, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588907.9213796}
+{"detail": "F-S4-20261113-105503-000021 shot.jpg", "kind": "captured", "obs_id": 5717, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588908.1246629}
+{"detail": "F-S4-20261113-105503-000021", "kind": "dropped", "obs_id": 5718, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588908.1246629}
+{"detail": "F-S4-20261113-105503-000022 shot.jpg", "kind": "captured", "obs_id": 5719, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588908.3349998}
+{"detail": "F-S4-20261113-105503-000023 shot.jpg", "kind": "captured", "obs_id": 5720, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588908.5310047}
+{"detail": "F-S4-20261113-105503-000023", "kind": "dropped", "obs_id": 5721, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588908.5310047}
+{"detail": "F-S4-20261113-105503-000024 shot.jpg", "kind": "captured", "obs_id": 5722, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588908.7724137}
+{"detail": "F-S4-20261113-105503-000024", "kind": "dropped", "obs_id": 5723, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588908.7724137}
+{"detail": "F-S4-20261113-105503-000025 shot.jpg", "kind": "captured", "obs_id": 5724, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588908.95886}
+{"detail": "F-S4-20261113-105503-000025", "kind": "dropped", "obs_id": 5725, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588908.95886}
+{"detail": "F-S4-20261113-105503-000026 shot.jpg", "kind": "captured", "obs_id": 5726, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588909.1667104}
+{"detail": "F-S4-20261113-105503-000026", "kind": "dropped", "obs_id": 5727, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588909.1667104}
+{"detail": "F-S4-20261113-105503-000027 shot.jpg", "kind": "captured", "obs_id": 5728, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588909.380879}
+{"detail": "F-S4-20261113-105503-000028 shot.jpg", "kind": "captured", "obs_id": 5729, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588909.5635617}
+{"detail": "F-S4-20261113-105503-000028", "kind": "dropped", "obs_id": 5730, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588909.5635617}
+{"detail": "F-S4-20261113-105503-000029 shot.jpg", "kind": "captured", "obs_id": 5731, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588909.7395837}
+{"detail": "F-S4-20261113-105503-000029", "kind": "dropped", "obs_id": 5732, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588909.7395837}
+{"detail": "F-S4-20261113-105503-000030 shot.jpg", "kind": "captured", "obs_id": 5733, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588909.9624743}
+{"detail": "F-S4-20261113-105503-000030", "kind": "dropped", "obs_id": 5734, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588909.9624743}
+{"detail": "F-S4-20261113-105503-000031 shot.jpg", "kind": "captured", "obs_id": 5735, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588910.2906818}
+{"detail": "F-S4-20261113-105503-000031", "kind": "dropped", "obs_id": 5736, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588910.2906818}
+{"detail": "F-S4-20261113-105503-000032 shot.jpg", "kind": "captured", "obs_id": 5737, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588910.4096034}
+{"detail": "F-S4-20261113-105503-000033 shot.jpg", "kind": "captured", "obs_id": 5738, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588910.6253936}
+{"detail": "F-S4-20261113-105503-000033", "kind": "dropped", "obs_id": 5739, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588910.6253936}
+{"detail": "F-S4-20261113-105503-000034 shot.jpg", "kind": "captured", "obs_id": 5740, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588910.82728}
+{"detail": "F-S4-20261113-105503-000034", "kind": "dropped", "obs_id": 5741, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588910.82728}
+{"detail": "F-S4-20261113-105503-000035 shot.jpg", "kind": "captured", "obs_id": 5742, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588911.0390842}
+{"detail": "F-S4-20261113-105503-000035", "kind": "dropped", "obs_id": 5743, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588911.0390842}
+{"detail": "F-S4-20261113-105503-000036 shot.jpg", "kind": "captured", "obs_id": 5744, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588911.2259643}
+{"detail": "F-S4-20261113-105503-000036", "kind": "dropped", "obs_id": 5745, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588911.2259643}
+{"detail": "F-S4-20261113-105503-000037 shot.jpg", "kind": "captured", "obs_id": 5746, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588911.4351885}
+{"detail": "F-S4-20261113-105503-000038 shot.jpg", "kind": "captured", "obs_id": 5747, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588911.666869}
+{"detail": "F-S4-20261113-105503-000038", "kind": "dropped", "obs_id": 5748, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588911.666869}
+{"detail": "F-S4-20261113-105503-000039 shot.jpg", "kind": "captured", "obs_id": 5749, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588911.8797212}
+{"detail": "F-S4-20261113-105503-000039", "kind": "dropped", "obs_id": 5750, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588911.8797212}
+{"detail": "F-S4-20261113-105503-000040 shot.jpg", "kind": "captured", "obs_id": 5751, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588912.0492933}
+{"detail": "F-S4-20261113-105503-000040", "kind": "dropped", "obs_id": 5752, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588912.0492933}
+{"detail": "F-S4-20261113-105503-000041 shot.jpg", "kind": "captured", "obs_id": 5753, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588912.2465038}
+{"detail": "F-S4-20261113-105503-000041", "kind": "dropped", "obs_id": 5754, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588912.2465038}
+{"detail": "F-S4-20261113-105503-000042 shot.jpg", "kind": "captured", "obs_id": 5755, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588912.433281}
+{"detail": "F-S4-20261113-105503-000043 shot.jpg", "kind": "captured", "obs_id": 5756, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588912.6672215}
+{"detail": "F-S4-20261113-105503-000043", "kind": "dropped", "obs_id": 5757, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588912.6672215}
+{"detail": "F-S4-20261113-105503-000044 shot.jpg", "kind": "captured", "obs_id": 5758, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588912.8269958}
+{"detail": "F-S4-20261113-105503-000044", "kind": "dropped", "obs_id": 5759, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588912.8269958}
+{"detail": "F-S4-20261113-105503-000045 shot.jpg", "kind": "captured", "obs_id": 5760, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588913.0424726}
+{"detail": "F-S4-20261113-105503-000045", "kind": "dropped", "obs_id": 5761, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588913.0434706}
+{"detail": "F-S4-20261113-105503-000046 shot.jpg", "kind": "captured", "obs_id": 5762, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588913.2525575}
+{"detail": "F-S4-20261113-105503-000046", "kind": "dropped", "obs_id": 5763, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588913.2532797}
+{"detail": "F-S4-20261113-105503-000047 shot.jpg", "kind": "captured", "obs_id": 5764, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588913.4927127}
+{"detail": "F-S4-20261113-105503-000048 shot.jpg", "kind": "captured", "obs_id": 5765, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588913.685241}
+{"detail": "F-S4-20261113-105503-000048", "kind": "dropped", "obs_id": 5766, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588913.685241}
+{"detail": "F-S4-20261113-105503-000049 shot.jpg", "kind": "captured", "obs_id": 5767, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588913.8635252}
+{"detail": "F-S4-20261113-105503-000049", "kind": "dropped", "obs_id": 5768, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588913.8635252}
+{"detail": "F-S4-20261113-105503-000050 shot.jpg", "kind": "captured", "obs_id": 5769, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588914.0581243}
+{"detail": "F-S4-20261113-105503-000050", "kind": "dropped", "obs_id": 5770, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588914.0581243}
+{"detail": "F-S4-20261113-105503-000051 shot.jpg", "kind": "captured", "obs_id": 5771, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588914.2596688}
+{"detail": "F-S4-20261113-105503-000051", "kind": "dropped", "obs_id": 5772, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588914.2600832}
+{"detail": "F-S4-20261113-105503-000052 shot.jpg", "kind": "captured", "obs_id": 5773, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588914.4993403}
+{"detail": "F-S4-20261113-105503-000053 shot.jpg", "kind": "captured", "obs_id": 5774, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588914.667021}
+{"detail": "F-S4-20261113-105503-000053", "kind": "dropped", "obs_id": 5775, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588914.6680179}
+{"detail": "F-S4-20261113-105503-000054 shot.jpg", "kind": "captured", "obs_id": 5776, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588914.8604}
+{"detail": "F-S4-20261113-105503-000054", "kind": "dropped", "obs_id": 5777, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588914.8604}
+{"detail": "F-S4-20261113-105503-000055 shot.jpg", "kind": "captured", "obs_id": 5778, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588915.115773}
+{"detail": "F-S4-20261113-105503-000055", "kind": "dropped", "obs_id": 5779, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588915.115773}
+{"detail": "F-S4-20261113-105503-000056 shot.jpg", "kind": "captured", "obs_id": 5780, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588915.253435}
+{"detail": "F-S4-20261113-105503-000056", "kind": "dropped", "obs_id": 5781, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588915.2577548}
+{"detail": "F-S4-20261113-105503-000057 shot.jpg", "kind": "captured", "obs_id": 5782, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588915.4956336}
+{"detail": "F-S4-20261113-105503-000058 shot.jpg", "kind": "captured", "obs_id": 5783, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588915.7181015}
+{"detail": "F-S4-20261113-105503-000058", "kind": "dropped", "obs_id": 5784, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588915.7181015}
+{"detail": "F-S4-20261113-105503-000059 shot.jpg", "kind": "captured", "obs_id": 5785, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588915.9118974}
+{"detail": "F-S4-20261113-105503-000059", "kind": "dropped", "obs_id": 5786, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588915.9118974}
+{"detail": "F-S4-20261113-105503-000060 shot.jpg", "kind": "captured", "obs_id": 5787, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588916.1045043}
+{"detail": "F-S4-20261113-105503-000060", "kind": "dropped", "obs_id": 5788, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588916.1045043}
+{"detail": "F-S4-20261113-105503-000061 shot.jpg", "kind": "captured", "obs_id": 5789, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588916.2923572}
+{"detail": "F-S4-20261113-105503-000061", "kind": "dropped", "obs_id": 5790, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588916.2923572}
+{"detail": "F-S4-20261113-105503-000062 shot.jpg", "kind": "captured", "obs_id": 5791, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588916.484091}
+{"detail": "F-S4-20261113-105503-000063 shot.jpg", "kind": "captured", "obs_id": 5792, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588916.6885483}
+{"detail": "F-S4-20261113-105503-000063", "kind": "dropped", "obs_id": 5793, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588916.6885483}
+{"detail": "F-S4-20261113-105503-000064 shot.jpg", "kind": "captured", "obs_id": 5794, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588916.905219}
+{"detail": "F-S4-20261113-105503-000064", "kind": "dropped", "obs_id": 5795, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588916.905219}
+{"detail": "F-S4-20261113-105503-000065 shot.jpg", "kind": "captured", "obs_id": 5796, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588917.079951}
+{"detail": "F-S4-20261113-105503-000065", "kind": "dropped", "obs_id": 5797, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588917.081966}
+{"detail": "F-S4-20261113-105503-000066 shot.jpg", "kind": "captured", "obs_id": 5798, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588917.319538}
+{"detail": "F-S4-20261113-105503-000066", "kind": "dropped", "obs_id": 5799, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588917.319538}
+{"detail": "F-S4-20261113-105503-000067 shot.jpg", "kind": "captured", "obs_id": 5800, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588917.5566328}
+{"detail": "F-S4-20261113-105503-000068 shot.jpg", "kind": "captured", "obs_id": 5801, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588917.767709}
+{"detail": "F-S4-20261113-105503-000068", "kind": "dropped", "obs_id": 5802, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588917.767709}
+{"detail": "F-S4-20261113-105503-000069 shot.jpg", "kind": "captured", "obs_id": 5803, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588917.9897401}
+{"detail": "F-S4-20261113-105503-000069", "kind": "dropped", "obs_id": 5804, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588917.9897401}
+{"detail": "F-S4-20261113-105503-000070 shot.jpg", "kind": "captured", "obs_id": 5805, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588918.1275525}
+{"detail": "F-S4-20261113-105503-000070", "kind": "dropped", "obs_id": 5806, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588918.1275525}
+{"detail": "F-S4-20261113-105503-000071 shot.jpg", "kind": "captured", "obs_id": 5807, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588918.3948987}
+{"detail": "F-S4-20261113-105503-000071", "kind": "dropped", "obs_id": 5808, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588918.3959126}
+{"detail": "F-S4-20261113-105503-000072 shot.jpg", "kind": "captured", "obs_id": 5809, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588918.573874}
+{"detail": "F-S4-20261113-105503-000073 shot.jpg", "kind": "captured", "obs_id": 5810, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588918.7263362}
+{"detail": "F-S4-20261113-105503-000073", "kind": "dropped", "obs_id": 5811, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588918.7263362}
+{"detail": "F-S4-20261113-105503-000074 shot.jpg", "kind": "captured", "obs_id": 5812, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588918.9272418}
+{"detail": "F-S4-20261113-105503-000074", "kind": "dropped", "obs_id": 5813, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588918.9272418}
+{"detail": "F-S4-20261113-105503-000075 shot.jpg", "kind": "captured", "obs_id": 5814, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588919.3222625}
+{"detail": "F-S4-20261113-105503-000075", "kind": "dropped", "obs_id": 5815, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588919.3222625}
+{"detail": "F-S4-20261113-105503-000076 shot.jpg", "kind": "captured", "obs_id": 5816, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588919.4756396}
+{"detail": "F-S4-20261113-105503-000076", "kind": "dropped", "obs_id": 5817, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588919.4766371}
+{"detail": "F-S4-20261113-105503-000077 shot.jpg", "kind": "captured", "obs_id": 5818, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588919.633946}
+{"detail": "F-S4-20261113-105503-000078 shot.jpg", "kind": "captured", "obs_id": 5819, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588919.8617442}
+{"detail": "F-S4-20261113-105503-000078", "kind": "dropped", "obs_id": 5820, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588919.8627415}
+{"detail": "F-S4-20261113-105503-000079 shot.jpg", "kind": "captured", "obs_id": 5821, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588920.0576456}
+{"detail": "F-S4-20261113-105503-000079", "kind": "dropped", "obs_id": 5822, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588920.0576456}
+{"detail": "F-S4-20261113-105503-000080 shot.jpg", "kind": "captured", "obs_id": 5823, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588920.341456}
+{"detail": "F-S4-20261113-105503-000080", "kind": "dropped", "obs_id": 5824, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588920.3424613}
+{"detail": "F-S4-20261113-105503-000081 shot.jpg", "kind": "captured", "obs_id": 5825, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588920.4813683}
+{"detail": "F-S4-20261113-105503-000081", "kind": "dropped", "obs_id": 5826, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588920.4813683}
+{"detail": "F-S4-20261113-105503-000082 shot.jpg", "kind": "captured", "obs_id": 5827, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588920.765733}
+{"detail": "F-S4-20261113-105503-000083 shot.jpg", "kind": "captured", "obs_id": 5828, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588920.9642587}
+{"detail": "F-S4-20261113-105503-000083", "kind": "dropped", "obs_id": 5829, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588920.9642587}
+{"detail": "F-S4-20261113-105503-000084 shot.jpg", "kind": "captured", "obs_id": 5830, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588921.091453}
+{"detail": "F-S4-20261113-105503-000084", "kind": "dropped", "obs_id": 5831, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588921.091453}
+{"detail": "F-S4-20261113-105503-000085 shot.jpg", "kind": "captured", "obs_id": 5832, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588921.342247}
+{"detail": "F-S4-20261113-105503-000085", "kind": "dropped", "obs_id": 5833, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588921.342247}
+{"detail": "F-S4-20261113-105503-000086 shot.jpg", "kind": "captured", "obs_id": 5834, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588921.533216}
+{"detail": "F-S4-20261113-105503-000086", "kind": "dropped", "obs_id": 5835, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588921.533216}
+{"detail": "F-S4-20261113-105503-000087 shot.jpg", "kind": "captured", "obs_id": 5836, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588921.705414}
+{"detail": "F-S4-20261113-105503-000088 shot.jpg", "kind": "captured", "obs_id": 5837, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588921.9066668}
+{"detail": "F-S4-20261113-105503-000088", "kind": "dropped", "obs_id": 5838, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588921.9066668}
+{"detail": "F-S4-20261113-105503-000089 shot.jpg", "kind": "captured", "obs_id": 5839, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588922.104492}
+{"detail": "F-S4-20261113-105503-000089", "kind": "dropped", "obs_id": 5840, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588922.104492}
+{"detail": "F-S4-20261113-105503-000090 shot.jpg", "kind": "captured", "obs_id": 5841, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588922.3209307}
+{"detail": "F-S4-20261113-105503-000090", "kind": "dropped", "obs_id": 5842, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588922.3209307}
+{"detail": "F-S4-20261113-105503-000091 shot.jpg", "kind": "captured", "obs_id": 5843, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588922.5231621}
+{"detail": "F-S4-20261113-105503-000091", "kind": "dropped", "obs_id": 5844, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588922.5231621}
+{"detail": "F-S4-20261113-105503-000092 shot.jpg", "kind": "captured", "obs_id": 5845, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588922.713777}
+{"detail": "F-S4-20261113-105503-000093 shot.jpg", "kind": "captured", "obs_id": 5846, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588922.98633}
+{"detail": "F-S4-20261113-105503-000093", "kind": "dropped", "obs_id": 5847, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588922.98633}
+{"detail": "F-S4-20261113-105503-000094 shot.jpg", "kind": "captured", "obs_id": 5848, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588923.1197414}
+{"detail": "F-S4-20261113-105503-000094", "kind": "dropped", "obs_id": 5849, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588923.1197414}
+{"detail": "F-S4-20261113-105503-000095 shot.jpg", "kind": "captured", "obs_id": 5850, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588923.3222303}
+{"detail": "F-S4-20261113-105503-000095", "kind": "dropped", "obs_id": 5851, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588923.3222303}
+{"detail": "F-S4-20261113-105503-000096 shot.jpg", "kind": "captured", "obs_id": 5852, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588923.5410972}
+{"detail": "F-S4-20261113-105503-000096", "kind": "dropped", "obs_id": 5853, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588923.542101}
+{"detail": "F-S4-20261113-105503-000097 shot.jpg", "kind": "captured", "obs_id": 5854, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588923.7967615}
+{"detail": "F-S4-20261113-105503-000098 shot.jpg", "kind": "captured", "obs_id": 5855, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588923.9408174}
+{"detail": "F-S4-20261113-105503-000098", "kind": "dropped", "obs_id": 5856, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588923.9408174}
+{"detail": "F-S4-20261113-105503-000099 shot.jpg", "kind": "captured", "obs_id": 5857, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588924.193518}
+{"detail": "F-S4-20261113-105503-000099", "kind": "dropped", "obs_id": 5858, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588924.1945262}
+{"detail": "F-S4-20261113-105503-000100 shot.jpg", "kind": "captured", "obs_id": 5859, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588924.446649}
+{"detail": "F-S4-20261113-105503-000100", "kind": "dropped", "obs_id": 5860, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588924.446649}
+{"detail": "F-S4-20261113-105503-000101 shot.jpg", "kind": "captured", "obs_id": 5861, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588924.7796082}
+{"detail": "F-S4-20261113-105503-000101", "kind": "dropped", "obs_id": 5862, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588924.7826731}
+{"detail": "F-S4-20261113-105503-000102 shot.jpg", "kind": "captured", "obs_id": 5863, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588925.0241735}
+{"detail": "F-S4-20261113-105503-000103 shot.jpg", "kind": "captured", "obs_id": 5864, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588925.235037}
+{"detail": "F-S4-20261113-105503-000103", "kind": "dropped", "obs_id": 5865, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588925.235037}
+{"detail": "F-S4-20261113-105503-000104 shot.jpg", "kind": "captured", "obs_id": 5866, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588925.5568922}
+{"detail": "F-S4-20261113-105503-000104", "kind": "dropped", "obs_id": 5867, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588925.5568922}
+{"detail": "F-S4-20261113-105503-000105 shot.jpg", "kind": "captured", "obs_id": 5868, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588925.7449255}
+{"detail": "F-S4-20261113-105503-000105", "kind": "dropped", "obs_id": 5869, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588925.7449255}
+{"detail": "F-S4-20261113-105503-000106 shot.jpg", "kind": "captured", "obs_id": 5870, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588925.9662087}
+{"detail": "F-S4-20261113-105503-000106", "kind": "dropped", "obs_id": 5871, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588925.9662087}
+{"detail": "F-S4-20261113-105503-000107 shot.jpg", "kind": "captured", "obs_id": 5872, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588926.1125941}
+{"detail": "F-S4-20261113-105503-000108 shot.jpg", "kind": "captured", "obs_id": 5873, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588926.3069472}
+{"detail": "F-S4-20261113-105503-000108", "kind": "dropped", "obs_id": 5874, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588926.3069472}
+{"detail": "F-S4-20261113-105503-000109 shot.jpg", "kind": "captured", "obs_id": 5875, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588926.4870353}
+{"detail": "F-S4-20261113-105503-000109", "kind": "dropped", "obs_id": 5876, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588926.4888918}
+{"detail": "F-S4-20261113-105503-000110 shot.jpg", "kind": "captured", "obs_id": 5877, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588926.7398543}
+{"detail": "F-S4-20261113-105503-000110", "kind": "dropped", "obs_id": 5878, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588926.7398543}
+{"detail": "F-S4-20261113-105503-000111 shot.jpg", "kind": "captured", "obs_id": 5879, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588927.0927103}
+{"detail": "F-S4-20261113-105503-000111", "kind": "dropped", "obs_id": 5880, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588927.0927103}
+{"detail": "F-S4-20261113-105503-000112 shot.jpg", "kind": "captured", "obs_id": 5881, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588927.32615}
+{"detail": "F-S4-20261113-105503-000113 shot.jpg", "kind": "captured", "obs_id": 5882, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588927.5491421}
+{"detail": "F-S4-20261113-105503-000113", "kind": "dropped", "obs_id": 5883, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588927.5500517}
+{"detail": "F-S4-20261113-105503-000114 shot.jpg", "kind": "captured", "obs_id": 5884, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588927.8617039}
+{"detail": "F-S4-20261113-105503-000114", "kind": "dropped", "obs_id": 5885, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588927.8617039}
+{"detail": "F-S4-20261113-105503-000115 shot.jpg", "kind": "captured", "obs_id": 5886, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588928.0076535}
+{"detail": "F-S4-20261113-105503-000115", "kind": "dropped", "obs_id": 5887, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588928.0076535}
+{"detail": "F-S4-20261113-105503-000116 shot.jpg", "kind": "captured", "obs_id": 5888, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588928.2009087}
+{"detail": "F-S4-20261113-105503-000116", "kind": "dropped", "obs_id": 5889, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588928.2009087}
+{"detail": "F-S4-20261113-105503-000117 shot.jpg", "kind": "captured", "obs_id": 5890, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588928.3986661}
+{"detail": "F-S4-20261113-105503-000118 shot.jpg", "kind": "captured", "obs_id": 5891, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588928.5931122}
+{"detail": "F-S4-20261113-105503-000118", "kind": "dropped", "obs_id": 5892, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588928.5931122}
+{"detail": "F-S4-20261113-105503-000119 shot.jpg", "kind": "captured", "obs_id": 5893, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588928.8841271}
+{"detail": "F-S4-20261113-105503-000119", "kind": "dropped", "obs_id": 5894, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588928.8841271}
+{"detail": "F-S4-20261113-105503-000120 shot.jpg", "kind": "captured", "obs_id": 5895, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588929.05686}
+{"detail": "F-S4-20261113-105503-000120", "kind": "dropped", "obs_id": 5896, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588929.05686}
+{"detail": "F-S4-20261113-105503-000121 shot.jpg", "kind": "captured", "obs_id": 5897, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588929.2377923}
+{"detail": "F-S4-20261113-105503-000121", "kind": "dropped", "obs_id": 5898, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588929.2413602}
+{"detail": "F-S4-20261113-105503-000122 shot.jpg", "kind": "captured", "obs_id": 5899, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588929.4222195}
+{"detail": "F-S4-20261113-105503-000123 shot.jpg", "kind": "captured", "obs_id": 5900, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588929.611437}
+{"detail": "F-S4-20261113-105503-000123", "kind": "dropped", "obs_id": 5901, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588929.611437}
+{"detail": "F-S4-20261113-105503-000124 shot.jpg", "kind": "captured", "obs_id": 5902, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588929.820916}
+{"detail": "F-S4-20261113-105503-000124", "kind": "dropped", "obs_id": 5903, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588929.820916}
+{"detail": "F-S4-20261113-105503-000125 shot.jpg", "kind": "captured", "obs_id": 5904, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588930.036747}
+{"detail": "F-S4-20261113-105503-000125", "kind": "dropped", "obs_id": 5905, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588930.036747}
+{"detail": "F-S4-20261113-105503-000126 shot.jpg", "kind": "captured", "obs_id": 5906, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588930.257873}
+{"detail": "F-S4-20261113-105503-000126", "kind": "dropped", "obs_id": 5907, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588930.257873}
+{"detail": "F-S4-20261113-105503-000127 shot.jpg", "kind": "captured", "obs_id": 5908, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588930.48001}
+{"detail": "F-S4-20261113-105503-000128 shot.jpg", "kind": "captured", "obs_id": 5909, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588930.639125}
+{"detail": "F-S4-20261113-105503-000128", "kind": "dropped", "obs_id": 5910, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588930.639125}
+{"detail": "F-S4-20261113-105503-000129 shot.jpg", "kind": "captured", "obs_id": 5911, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588930.9079013}
+{"detail": "F-S4-20261113-105503-000129", "kind": "dropped", "obs_id": 5912, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588930.9079013}
+{"detail": "F-S4-20261113-105503-000130 shot.jpg", "kind": "captured", "obs_id": 5913, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588931.0951145}
+{"detail": "F-S4-20261113-105503-000130", "kind": "dropped", "obs_id": 5914, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588931.0951145}
+{"detail": "F-S4-20261113-105503-000131 shot.jpg", "kind": "captured", "obs_id": 5915, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588931.3512573}
+{"detail": "F-S4-20261113-105503-000131", "kind": "dropped", "obs_id": 5916, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588931.3512573}
+{"detail": "F-S4-20261113-105503-000132 shot.jpg", "kind": "captured", "obs_id": 5917, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588931.5264258}
+{"detail": "F-S4-20261113-105503-000133 shot.jpg", "kind": "captured", "obs_id": 5918, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588931.686022}
+{"detail": "F-S4-20261113-105503-000133", "kind": "dropped", "obs_id": 5919, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588931.686022}
+{"detail": "F-S4-20261113-105503-000134 shot.jpg", "kind": "captured", "obs_id": 5920, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588931.9247518}
+{"detail": "F-S4-20261113-105503-000134", "kind": "dropped", "obs_id": 5921, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588931.9247518}
+{"detail": "F-S4-20261113-105503-000135 shot.jpg", "kind": "captured", "obs_id": 5922, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588932.0833504}
+{"detail": "F-S4-20261113-105503-000135", "kind": "dropped", "obs_id": 5923, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588932.0833504}
+{"detail": "F-S4-20261113-105503-000136 shot.jpg", "kind": "captured", "obs_id": 5924, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588932.317612}
+{"detail": "F-S4-20261113-105503-000136", "kind": "dropped", "obs_id": 5925, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588932.317612}
+{"detail": "F-S4-20261113-105503-000137 shot.jpg", "kind": "captured", "obs_id": 5926, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588932.4989989}
+{"detail": "F-S4-20261113-105503-000138 shot.jpg", "kind": "captured", "obs_id": 5927, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588932.7397263}
+{"detail": "F-S4-20261113-105503-000138", "kind": "dropped", "obs_id": 5928, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588932.740735}
+{"detail": "F-S4-20261113-105503-000139 shot.jpg", "kind": "captured", "obs_id": 5929, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588932.893726}
+{"detail": "F-S4-20261113-105503-000139", "kind": "dropped", "obs_id": 5930, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588932.893726}
+{"detail": "F-S4-20261113-105503-000140 shot.jpg", "kind": "captured", "obs_id": 5931, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588933.1262848}
+{"detail": "F-S4-20261113-105503-000140", "kind": "dropped", "obs_id": 5932, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588933.1262848}
+{"detail": "F-S4-20261113-105503-000141 shot.jpg", "kind": "captured", "obs_id": 5933, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588933.3290658}
+{"detail": "F-S4-20261113-105503-000141", "kind": "dropped", "obs_id": 5934, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588933.3290658}
+{"detail": "F-S4-20261113-105503-000142 shot.jpg", "kind": "captured", "obs_id": 5935, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588933.5693712}
+{"detail": "F-S4-20261113-105503-000143 shot.jpg", "kind": "captured", "obs_id": 5936, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588933.7139943}
+{"detail": "F-S4-20261113-105503-000143", "kind": "dropped", "obs_id": 5937, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588933.7139943}
+{"detail": "F-S4-20261113-105503-000144 shot.jpg", "kind": "captured", "obs_id": 5938, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588934.0619876}
+{"detail": "F-S4-20261113-105503-000144", "kind": "dropped", "obs_id": 5939, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588934.0660956}
+{"detail": "F-S4-20261113-105503-000145 shot.jpg", "kind": "captured", "obs_id": 5940, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588934.1461794}
+{"detail": "F-S4-20261113-105503-000145", "kind": "dropped", "obs_id": 5941, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588934.1461794}
+{"detail": "F-S4-20261113-105503-000146 shot.jpg", "kind": "captured", "obs_id": 5942, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588934.7131073}
+{"detail": "F-S4-20261113-105503-000146", "kind": "dropped", "obs_id": 5943, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588934.7131073}
+{"detail": "F-S4-20261113-105503-000147 shot.jpg", "kind": "captured", "obs_id": 5944, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588935.096534}
+{"detail": "F-S4-20261113-105503-000148 shot.jpg", "kind": "captured", "obs_id": 5945, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588935.4132135}
+{"detail": "F-S4-20261113-105503-000148", "kind": "dropped", "obs_id": 5946, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588935.4132135}
+{"detail": "F-S4-20261113-105503-000149 shot.jpg", "kind": "captured", "obs_id": 5947, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588935.9537227}
+{"detail": "F-S4-20261113-105503-000149", "kind": "dropped", "obs_id": 5948, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588935.955002}
+{"detail": "F-S4-20261113-105503-000150 shot.jpg", "kind": "captured", "obs_id": 5949, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588936.139819}
+{"detail": "F-S4-20261113-105503-000151 shot.jpg", "kind": "captured", "obs_id": 5950, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588936.5062373}
+{"detail": "F-S4-20261113-105503-000151", "kind": "dropped", "obs_id": 5951, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588936.5062373}
+{"detail": "F-S4-20261113-105503-000152 shot.jpg", "kind": "captured", "obs_id": 5952, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588936.9168997}
+{"detail": "F-S4-20261113-105503-000152", "kind": "dropped", "obs_id": 5953, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588936.9168997}
+{"detail": "F-S4-20261113-105503-000153 shot.jpg", "kind": "captured", "obs_id": 5954, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588937.139836}
+{"detail": "F-S4-20261113-105503-000153", "kind": "dropped", "obs_id": 5955, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588937.139836}
+{"detail": "F-S4-20261113-105503-000154 shot.jpg", "kind": "captured", "obs_id": 5956, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588937.3618286}
+{"detail": "F-S4-20261113-105503-000155 shot.jpg", "kind": "captured", "obs_id": 5957, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588937.4808357}
+{"detail": "F-S4-20261113-105503-000155", "kind": "dropped", "obs_id": 5958, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588937.4808357}
+{"detail": "F-S4-20261113-105503-000156 shot.jpg", "kind": "captured", "obs_id": 5959, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588937.6797328}
+{"detail": "F-S4-20261113-105503-000156", "kind": "dropped", "obs_id": 5960, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588937.6797328}
+{"detail": "F-S4-20261113-105503-000157 shot.jpg", "kind": "captured", "obs_id": 5961, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588937.8743284}
+{"detail": "F-S4-20261113-105503-000157", "kind": "dropped", "obs_id": 5962, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588937.8743284}
+{"detail": "F-S4-20261113-105503-000158 shot.jpg", "kind": "captured", "obs_id": 5963, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588938.0875804}
+{"detail": "F-S4-20261113-105503-000158", "kind": "dropped", "obs_id": 5964, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588938.0875804}
+{"detail": "F-S4-20261113-105503-000159 shot.jpg", "kind": "captured", "obs_id": 5965, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588938.3464787}
+{"detail": "F-S4-20261113-105503-000160 shot.jpg", "kind": "captured", "obs_id": 5966, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588938.481899}
+{"detail": "F-S4-20261113-105503-000160", "kind": "dropped", "obs_id": 5967, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588938.481899}
+{"detail": "F-S4-20261113-105503-000161 shot.jpg", "kind": "captured", "obs_id": 5968, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588938.6892002}
+{"detail": "F-S4-20261113-105503-000161", "kind": "dropped", "obs_id": 5969, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588938.6892002}
+{"detail": "F-S4-20261113-105503-000162 shot.jpg", "kind": "captured", "obs_id": 5970, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588938.9325337}
+{"detail": "F-S4-20261113-105503-000162", "kind": "dropped", "obs_id": 5971, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588938.9325337}
+{"detail": "F-S4-20261113-105503-000163 shot.jpg", "kind": "captured", "obs_id": 5972, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588939.1167665}
+{"detail": "F-S4-20261113-105503-000163", "kind": "dropped", "obs_id": 5973, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588939.1174388}
+{"detail": "F-S4-20261113-105503-000164 shot.jpg", "kind": "captured", "obs_id": 5974, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588939.407987}
+{"detail": "F-S4-20261113-105503-000165 shot.jpg", "kind": "captured", "obs_id": 5975, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588939.5404162}
+{"detail": "F-S4-20261113-105503-000165", "kind": "dropped", "obs_id": 5976, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588939.5404162}
+{"detail": "F-S4-20261113-105503-000166 shot.jpg", "kind": "captured", "obs_id": 5977, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588939.7704937}
+{"detail": "F-S4-20261113-105503-000166", "kind": "dropped", "obs_id": 5978, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588939.7704937}
+{"detail": "F-S4-20261113-105503-000167 shot.jpg", "kind": "captured", "obs_id": 5979, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588939.9161954}
+{"detail": "F-S4-20261113-105503-000167", "kind": "dropped", "obs_id": 5980, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588939.9161954}
+{"detail": "F-S4-20261113-105503-000168 shot.jpg", "kind": "captured", "obs_id": 5981, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588940.1805258}
+{"detail": "F-S4-20261113-105503-000168", "kind": "dropped", "obs_id": 5982, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588940.1805258}
+{"detail": "F-S4-20261113-105503-000169 shot.jpg", "kind": "captured", "obs_id": 5983, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588940.5038874}
+{"detail": "F-S4-20261113-105503-000170 shot.jpg", "kind": "captured", "obs_id": 5984, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588940.6624758}
+{"detail": "F-S4-20261113-105503-000170", "kind": "dropped", "obs_id": 5985, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588940.6624758}
+{"detail": "F-S4-20261113-105503-000171 shot.jpg", "kind": "captured", "obs_id": 5986, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588940.830123}
+{"detail": "F-S4-20261113-105503-000171", "kind": "dropped", "obs_id": 5987, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588940.830123}
+{"detail": "F-S4-20261113-105503-000172 shot.jpg", "kind": "captured", "obs_id": 5988, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588941.026566}
+{"detail": "F-S4-20261113-105503-000172", "kind": "dropped", "obs_id": 5989, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588941.026566}
+{"detail": "F-S4-20261113-105503-000173 shot.jpg", "kind": "captured", "obs_id": 5990, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588941.2279956}
+{"detail": "F-S4-20261113-105503-000173", "kind": "dropped", "obs_id": 5991, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588941.2279956}
+{"detail": "F-S4-20261113-105503-000174 shot.jpg", "kind": "captured", "obs_id": 5992, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588941.4164643}
+{"detail": "F-S4-20261113-105503-000175 shot.jpg", "kind": "captured", "obs_id": 5993, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588941.7689586}
+{"detail": "F-S4-20261113-105503-000175", "kind": "dropped", "obs_id": 5994, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588941.769969}
+{"detail": "F-S4-20261113-105503-000176 shot.jpg", "kind": "captured", "obs_id": 5995, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588941.9629395}
+{"detail": "F-S4-20261113-105503-000176", "kind": "dropped", "obs_id": 5996, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588941.9629395}
+{"detail": "F-S4-20261113-105503-000177 shot.jpg", "kind": "captured", "obs_id": 5997, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588942.1450293}
+{"detail": "F-S4-20261113-105503-000177", "kind": "dropped", "obs_id": 5998, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588942.1450293}
+{"detail": "F-S4-20261113-105503-000178 shot.jpg", "kind": "captured", "obs_id": 5999, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588942.415356}
+{"detail": "F-S4-20261113-105503-000178", "kind": "dropped", "obs_id": 6000, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588942.4162571}
+{"detail": "F-S4-20261113-105503-000179 shot.jpg", "kind": "captured", "obs_id": 6001, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588942.61724}
+{"detail": "F-S4-20261113-105503-000180 shot.jpg", "kind": "captured", "obs_id": 6002, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588942.7837117}
+{"detail": "F-S4-20261113-105503-000180", "kind": "dropped", "obs_id": 6003, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588942.7837117}
+{"detail": "F-S4-20261113-105503-000181 shot.jpg", "kind": "captured", "obs_id": 6004, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588943.138095}
+{"detail": "F-S4-20261113-105503-000181", "kind": "dropped", "obs_id": 6005, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588943.1396182}
+{"detail": "F-S4-20261113-105503-000182 shot.jpg", "kind": "captured", "obs_id": 6006, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588943.283217}
+{"detail": "F-S4-20261113-105503-000182", "kind": "dropped", "obs_id": 6007, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588943.283217}
+{"detail": "F-S4-20261113-105503-000183 shot.jpg", "kind": "captured", "obs_id": 6008, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588943.4746792}
+{"detail": "F-S4-20261113-105503-000183", "kind": "dropped", "obs_id": 6009, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588943.4746792}
+{"detail": "F-S4-20261113-105503-000184 shot.jpg", "kind": "captured", "obs_id": 6010, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588943.7039137}
+{"detail": "F-S4-20261113-105503-000185 shot.jpg", "kind": "captured", "obs_id": 6011, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588943.8494842}
+{"detail": "F-S4-20261113-105503-000185", "kind": "dropped", "obs_id": 6012, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588943.8494842}
+{"detail": "F-S4-20261113-105503-000186 shot.jpg", "kind": "captured", "obs_id": 6013, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588944.1849325}
+{"detail": "F-S4-20261113-105503-000186", "kind": "dropped", "obs_id": 6014, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588944.1849325}
+{"detail": "F-S4-20261113-105503-000187 shot.jpg", "kind": "captured", "obs_id": 6015, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588944.4695973}
+{"detail": "F-S4-20261113-105503-000187", "kind": "dropped", "obs_id": 6016, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588944.4706035}
+{"detail": "F-S4-20261113-105503-000188 shot.jpg", "kind": "captured", "obs_id": 6017, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588944.6134374}
+{"detail": "F-S4-20261113-105503-000188", "kind": "dropped", "obs_id": 6018, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588944.6134374}
+{"detail": "F-S4-20261113-105503-000189 shot.jpg", "kind": "captured", "obs_id": 6019, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588944.8865058}
+{"detail": "F-S4-20261113-105503-000190 shot.jpg", "kind": "captured", "obs_id": 6020, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588945.1738393}
+{"detail": "F-S4-20261113-105503-000190", "kind": "dropped", "obs_id": 6021, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588945.1738393}
+{"detail": "F-S4-20261113-105503-000191 shot.jpg", "kind": "captured", "obs_id": 6022, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588945.3947084}
+{"detail": "F-S4-20261113-105503-000191", "kind": "dropped", "obs_id": 6023, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588945.3947084}
+{"detail": "F-S4-20261113-105503-000192 shot.jpg", "kind": "captured", "obs_id": 6024, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588945.5762677}
+{"detail": "F-S4-20261113-105503-000192", "kind": "dropped", "obs_id": 6025, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588945.5762677}
+{"detail": "F-S4-20261113-105503-000193 shot.jpg", "kind": "captured", "obs_id": 6026, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588945.7134607}
+{"detail": "F-S4-20261113-105503-000193", "kind": "dropped", "obs_id": 6027, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588945.7134607}
+{"detail": "F-S4-20261113-105503-000194 shot.jpg", "kind": "captured", "obs_id": 6028, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588945.928844}
+{"detail": "F-S4-20261113-105503-000195 shot.jpg", "kind": "captured", "obs_id": 6029, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588946.1175807}
+{"detail": "F-S4-20261113-105503-000195", "kind": "dropped", "obs_id": 6030, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588946.1175807}
+{"detail": "F-S4-20261113-105503-000196 shot.jpg", "kind": "captured", "obs_id": 6031, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588946.315582}
+{"detail": "F-S4-20261113-105503-000196", "kind": "dropped", "obs_id": 6032, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588946.315582}
+{"detail": "F-S4-20261113-105503-000197 shot.jpg", "kind": "captured", "obs_id": 6033, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588946.5487306}
+{"detail": "F-S4-20261113-105503-000197", "kind": "dropped", "obs_id": 6034, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588946.5487306}
+{"detail": "F-S4-20261113-105503-000198 shot.jpg", "kind": "captured", "obs_id": 6035, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588946.749005}
+{"detail": "F-S4-20261113-105503-000198", "kind": "dropped", "obs_id": 6036, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588946.7506227}
+{"detail": "F-S4-20261113-105503-000199 shot.jpg", "kind": "captured", "obs_id": 6037, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588946.9186318}
+{"detail": "F-S4-20261113-105503-000200 shot.jpg", "kind": "captured", "obs_id": 6038, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588947.1588893}
+{"detail": "F-S4-20261113-105503-000200", "kind": "dropped", "obs_id": 6039, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588947.159214}
+{"detail": "F-S4-20261113-105503-000201 shot.jpg", "kind": "captured", "obs_id": 6040, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588947.3797796}
+{"detail": "F-S4-20261113-105503-000201", "kind": "dropped", "obs_id": 6041, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588947.3797796}
+{"detail": "F-S4-20261113-105503-000202 shot.jpg", "kind": "captured", "obs_id": 6042, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588948.0923448}
+{"detail": "F-S4-20261113-105503-000202", "kind": "dropped", "obs_id": 6043, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588948.0923448}
+{"detail": "F-S4-20261113-105503-000203 shot.jpg", "kind": "captured", "obs_id": 6044, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588948.2183588}
+{"detail": "F-S4-20261113-105503-000204 shot.jpg", "kind": "captured", "obs_id": 6045, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588948.4142761}
+{"detail": "F-S4-20261113-105503-000204", "kind": "dropped", "obs_id": 6046, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588948.4142761}
+{"detail": "F-S4-20261113-105503-000205 shot.jpg", "kind": "captured", "obs_id": 6047, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588948.6089342}
+{"detail": "F-S4-20261113-105503-000205", "kind": "dropped", "obs_id": 6048, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588948.6089342}
+{"detail": "F-S4-20261113-105503-000206 shot.jpg", "kind": "captured", "obs_id": 6049, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588948.8174236}
+{"detail": "F-S4-20261113-105503-000206", "kind": "dropped", "obs_id": 6050, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588948.8174236}
+{"detail": "F-S4-20261113-105503-000207 shot.jpg", "kind": "captured", "obs_id": 6051, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588949.0269997}
+{"detail": "F-S4-20261113-105503-000207", "kind": "dropped", "obs_id": 6052, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588949.0269997}
+{"detail": "F-S4-20261113-105503-000208 shot.jpg", "kind": "captured", "obs_id": 6053, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588949.2138658}
+{"detail": "F-S4-20261113-105503-000209 shot.jpg", "kind": "captured", "obs_id": 6054, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588949.411263}
+{"detail": "F-S4-20261113-105503-000209", "kind": "dropped", "obs_id": 6055, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588949.411263}
+{"detail": "F-S4-20261113-105503-000210 shot.jpg", "kind": "captured", "obs_id": 6056, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588949.685415}
+{"detail": "F-S4-20261113-105503-000210", "kind": "dropped", "obs_id": 6057, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588949.6860762}
+{"detail": "F-S4-20261113-105503-000211 shot.jpg", "kind": "captured", "obs_id": 6058, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588949.8586538}
+{"detail": "F-S4-20261113-105503-000211", "kind": "dropped", "obs_id": 6059, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588949.8586538}
+{"detail": "F-S4-20261113-105503-000212 shot.jpg", "kind": "captured", "obs_id": 6060, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588950.0710974}
+{"detail": "F-S4-20261113-105503-000212", "kind": "dropped", "obs_id": 6061, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588950.0721176}
+{"detail": "F-S4-20261113-105503-000213 shot.jpg", "kind": "captured", "obs_id": 6062, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588950.2793298}
+{"detail": "F-S4-20261113-105503-000214 shot.jpg", "kind": "captured", "obs_id": 6063, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588950.501902}
+{"detail": "F-S4-20261113-105503-000214", "kind": "dropped", "obs_id": 6064, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588950.501902}
+{"detail": "F-S4-20261113-105503-000215 shot.jpg", "kind": "captured", "obs_id": 6065, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588950.6982634}
+{"detail": "F-S4-20261113-105503-000215", "kind": "dropped", "obs_id": 6066, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588950.6982634}
+{"detail": "F-S4-20261113-105503-000216 shot.jpg", "kind": "captured", "obs_id": 6067, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588950.8933914}
+{"detail": "F-S4-20261113-105503-000216", "kind": "dropped", "obs_id": 6068, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588950.8933914}
+{"detail": "F-S4-20261113-105503-000217 shot.jpg", "kind": "captured", "obs_id": 6069, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588951.079968}
+{"detail": "F-S4-20261113-105503-000217", "kind": "dropped", "obs_id": 6070, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588951.079968}
+{"detail": "F-S4-20261113-105503-000218 shot.jpg", "kind": "captured", "obs_id": 6071, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588951.310576}
+{"detail": "F-S4-20261113-105503-000219 shot.jpg", "kind": "captured", "obs_id": 6072, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588951.4764526}
+{"detail": "F-S4-20261113-105503-000219", "kind": "dropped", "obs_id": 6073, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588951.4764526}
+{"detail": "F-S4-20261113-105503-000220 shot.jpg", "kind": "captured", "obs_id": 6074, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588951.6847763}
+{"detail": "F-S4-20261113-105503-000220", "kind": "dropped", "obs_id": 6075, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588951.6854618}
+{"detail": "F-S4-20261113-105503-000221 shot.jpg", "kind": "captured", "obs_id": 6076, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588952.0578752}
+{"detail": "F-S4-20261113-105503-000221", "kind": "dropped", "obs_id": 6077, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588952.0578752}
+{"detail": "F-S4-20261113-105503-000222 shot.jpg", "kind": "captured", "obs_id": 6078, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588952.2552426}
+{"detail": "F-S4-20261113-105503-000222", "kind": "dropped", "obs_id": 6079, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588952.2552426}
+{"detail": "F-S4-20261113-105503-000223 shot.jpg", "kind": "captured", "obs_id": 6080, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588952.388341}
+{"detail": "F-S4-20261113-105503-000224 shot.jpg", "kind": "captured", "obs_id": 6081, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588952.580358}
+{"detail": "F-S4-20261113-105503-000224", "kind": "dropped", "obs_id": 6082, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588952.580358}
+{"detail": "F-S4-20261113-105503-000225 shot.jpg", "kind": "captured", "obs_id": 6083, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588952.7957194}
+{"detail": "F-S4-20261113-105503-000225", "kind": "dropped", "obs_id": 6084, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588952.7957194}
+{"detail": "F-S4-20261113-105503-000226 shot.jpg", "kind": "captured", "obs_id": 6085, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588952.9902313}
+{"detail": "F-S4-20261113-105503-000226", "kind": "dropped", "obs_id": 6086, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588952.9902313}
+{"detail": "F-S4-20261113-105503-000227 shot.jpg", "kind": "captured", "obs_id": 6087, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588953.1758673}
+{"detail": "F-S4-20261113-105503-000227", "kind": "dropped", "obs_id": 6088, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588953.176865}
+{"detail": "F-S4-20261113-105503-000228 shot.jpg", "kind": "captured", "obs_id": 6089, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588953.3790932}
+{"detail": "F-S4-20261113-105503-000229 shot.jpg", "kind": "captured", "obs_id": 6090, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588953.5893848}
+{"detail": "F-S4-20261113-105503-000229", "kind": "dropped", "obs_id": 6091, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588953.5893848}
+{"detail": "F-S4-20261113-105503-000230 shot.jpg", "kind": "captured", "obs_id": 6092, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588953.8117561}
+{"detail": "F-S4-20261113-105503-000230", "kind": "dropped", "obs_id": 6093, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588953.8117561}
+{"detail": "F-S4-20261113-105503-000231 shot.jpg", "kind": "captured", "obs_id": 6094, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588954.0306377}
+{"detail": "F-S4-20261113-105503-000231", "kind": "dropped", "obs_id": 6095, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588954.0316334}
+{"detail": "F-S4-20261113-105503-000232 shot.jpg", "kind": "captured", "obs_id": 6096, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588954.2255204}
+{"detail": "F-S4-20261113-105503-000232", "kind": "dropped", "obs_id": 6097, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588954.2255204}
+{"detail": "F-S4-20261113-105503-000233 shot.jpg", "kind": "captured", "obs_id": 6098, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588954.4206743}
+{"detail": "F-S4-20261113-105503-000234 shot.jpg", "kind": "captured", "obs_id": 6099, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588954.5961165}
+{"detail": "F-S4-20261113-105503-000234", "kind": "dropped", "obs_id": 6100, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588954.5961165}
+{"detail": "F-S4-20261113-105503-000235 shot.jpg", "kind": "captured", "obs_id": 6101, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588954.8153224}
+{"detail": "F-S4-20261113-105503-000235", "kind": "dropped", "obs_id": 6102, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588954.8153224}
+{"detail": "F-S4-20261113-105503-000236 shot.jpg", "kind": "captured", "obs_id": 6103, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588955.011317}
+{"detail": "F-S4-20261113-105503-000236", "kind": "dropped", "obs_id": 6104, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588955.011317}
+{"detail": "F-S4-20261113-105503-000237 shot.jpg", "kind": "captured", "obs_id": 6105, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588955.2635412}
+{"detail": "F-S4-20261113-105503-000237", "kind": "dropped", "obs_id": 6106, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588955.2635412}
+{"detail": "F-S4-20261113-105503-000238 shot.jpg", "kind": "captured", "obs_id": 6107, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588955.4661684}
+{"detail": "F-S4-20261113-105503-000239 shot.jpg", "kind": "captured", "obs_id": 6108, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588955.6634836}
+{"detail": "F-S4-20261113-105503-000239", "kind": "dropped", "obs_id": 6109, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588955.6634836}
+{"detail": "F-S4-20261113-105503-000240 shot.jpg", "kind": "captured", "obs_id": 6110, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588955.8419895}
+{"detail": "F-S4-20261113-105503-000240", "kind": "dropped", "obs_id": 6111, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588955.8419895}
+{"detail": "F-S4-20261113-105503-000241 shot.jpg", "kind": "captured", "obs_id": 6112, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588956.05347}
+{"detail": "F-S4-20261113-105503-000241", "kind": "dropped", "obs_id": 6113, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588956.05347}
+{"detail": "F-S4-20261113-105503-000242 shot.jpg", "kind": "captured", "obs_id": 6114, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588956.2885249}
+{"detail": "F-S4-20261113-105503-000242", "kind": "dropped", "obs_id": 6115, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588956.2885249}
+{"detail": "F-S4-20261113-105503-000243 shot.jpg", "kind": "captured", "obs_id": 6116, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588956.470465}
+{"detail": "F-S4-20261113-105503-000244 shot.jpg", "kind": "captured", "obs_id": 6117, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588956.6881492}
+{"detail": "F-S4-20261113-105503-000244", "kind": "dropped", "obs_id": 6118, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588956.6881492}
+{"detail": "F-S4-20261113-105503-000245 shot.jpg", "kind": "captured", "obs_id": 6119, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588956.8784873}
+{"detail": "F-S4-20261113-105503-000245", "kind": "dropped", "obs_id": 6120, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588956.8784873}
+{"detail": "F-S4-20261113-105503-000246 shot.jpg", "kind": "captured", "obs_id": 6121, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588957.086502}
+{"detail": "F-S4-20261113-105503-000246", "kind": "dropped", "obs_id": 6122, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588957.086502}
+{"detail": "F-S4-20261113-105503-000247 shot.jpg", "kind": "captured", "obs_id": 6123, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588957.2878811}
+{"detail": "F-S4-20261113-105503-000247", "kind": "dropped", "obs_id": 6124, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588957.2878811}
+{"detail": "F-S4-20261113-105503-000248 shot.jpg", "kind": "captured", "obs_id": 6125, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588957.4971137}
+{"detail": "F-S4-20261113-105503-000249 shot.jpg", "kind": "captured", "obs_id": 6126, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588957.7117739}
+{"detail": "F-S4-20261113-105503-000249", "kind": "dropped", "obs_id": 6127, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588957.7127738}
+{"detail": "F-S4-20261113-105503-000250 shot.jpg", "kind": "captured", "obs_id": 6128, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588957.9101968}
+{"detail": "F-S4-20261113-105503-000250", "kind": "dropped", "obs_id": 6129, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588957.9101968}
+{"detail": "F-S4-20261113-105503-000251 shot.jpg", "kind": "captured", "obs_id": 6130, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588958.0698264}
+{"detail": "F-S4-20261113-105503-000251", "kind": "dropped", "obs_id": 6131, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588958.0698264}
+{"detail": "F-S4-20261113-105503-000252 shot.jpg", "kind": "captured", "obs_id": 6132, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588958.3080916}
+{"detail": "F-S4-20261113-105503-000252", "kind": "dropped", "obs_id": 6133, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588958.3080916}
+{"detail": "F-S4-20261113-105503-000253 shot.jpg", "kind": "captured", "obs_id": 6134, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588958.4759285}
+{"detail": "F-S4-20261113-105503-000254 shot.jpg", "kind": "captured", "obs_id": 6135, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588958.7156167}
+{"detail": "F-S4-20261113-105503-000254", "kind": "dropped", "obs_id": 6136, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588958.7161233}
+{"detail": "F-S4-20261113-105503-000255 shot.jpg", "kind": "captured", "obs_id": 6137, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588958.908062}
+{"detail": "F-S4-20261113-105503-000255", "kind": "dropped", "obs_id": 6138, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588958.910065}
+{"detail": "F-S4-20261113-105503-000256 shot.jpg", "kind": "captured", "obs_id": 6139, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588959.134422}
+{"detail": "F-S4-20261113-105503-000256", "kind": "dropped", "obs_id": 6140, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588959.134422}
+{"detail": "F-S4-20261113-105503-000257 shot.jpg", "kind": "captured", "obs_id": 6141, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588959.3165357}
+{"detail": "F-S4-20261113-105503-000257", "kind": "dropped", "obs_id": 6142, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588959.3165357}
+{"detail": "F-S4-20261113-105503-000258 shot.jpg", "kind": "captured", "obs_id": 6143, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588959.496917}
+{"detail": "F-S4-20261113-105503-000259 shot.jpg", "kind": "captured", "obs_id": 6144, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588959.7203205}
+{"detail": "F-S4-20261113-105503-000259", "kind": "dropped", "obs_id": 6145, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588959.7203205}
+{"detail": "F-S4-20261113-105503-000260 shot.jpg", "kind": "captured", "obs_id": 6146, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588959.987328}
+{"detail": "F-S4-20261113-105503-000260", "kind": "dropped", "obs_id": 6147, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588959.987328}
+{"detail": "F-S4-20261113-105503-000261 shot.jpg", "kind": "captured", "obs_id": 6148, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588960.1678271}
+{"detail": "F-S4-20261113-105503-000261", "kind": "dropped", "obs_id": 6149, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588960.1683364}
+{"detail": "F-S4-20261113-105503-000262 shot.jpg", "kind": "captured", "obs_id": 6150, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588960.3510637}
+{"detail": "F-S4-20261113-105503-000262", "kind": "dropped", "obs_id": 6151, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588960.3510637}
+{"detail": "F-S4-20261113-105503-000263 shot.jpg", "kind": "captured", "obs_id": 6152, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588960.5422642}
+{"detail": "F-S4-20261113-105503-000264 shot.jpg", "kind": "captured", "obs_id": 6153, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588960.7734635}
+{"detail": "F-S4-20261113-105503-000264", "kind": "dropped", "obs_id": 6154, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588960.7734635}
+{"detail": "F-S4-20261113-105503-000265 shot.jpg", "kind": "captured", "obs_id": 6155, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588960.944384}
+{"detail": "F-S4-20261113-105503-000265", "kind": "dropped", "obs_id": 6156, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588960.944384}
+{"detail": "F-S4-20261113-105503-000266 shot.jpg", "kind": "captured", "obs_id": 6157, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588961.1436443}
+{"detail": "F-S4-20261113-105503-000266", "kind": "dropped", "obs_id": 6158, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588961.1436443}
+{"detail": "F-S4-20261113-105503-000267 shot.jpg", "kind": "captured", "obs_id": 6159, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588961.3562932}
+{"detail": "F-S4-20261113-105503-000267", "kind": "dropped", "obs_id": 6160, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588961.3562932}
+{"detail": "F-S4-20261113-105503-000268 shot.jpg", "kind": "captured", "obs_id": 6161, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588961.5732043}
+{"detail": "F-S4-20261113-105503-000269 shot.jpg", "kind": "captured", "obs_id": 6162, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588961.7409673}
+{"detail": "F-S4-20261113-105503-000269", "kind": "dropped", "obs_id": 6163, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588961.7409673}
+{"detail": "F-S4-20261113-105503-000270 shot.jpg", "kind": "captured", "obs_id": 6164, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588962.025227}
+{"detail": "F-S4-20261113-105503-000270", "kind": "dropped", "obs_id": 6165, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588962.025227}
+{"detail": "F-S4-20261113-105503-000271 shot.jpg", "kind": "captured", "obs_id": 6166, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588962.1845944}
+{"detail": "F-S4-20261113-105503-000271", "kind": "dropped", "obs_id": 6167, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588962.1852722}
+{"detail": "F-S4-20261113-105503-000272 shot.jpg", "kind": "captured", "obs_id": 6168, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588962.3908732}
+{"detail": "F-S4-20261113-105503-000272", "kind": "dropped", "obs_id": 6169, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588962.3908732}
+{"detail": "F-S4-20261113-105503-000273 shot.jpg", "kind": "captured", "obs_id": 6170, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588962.5926487}
+{"detail": "F-S4-20261113-105503-000274 shot.jpg", "kind": "captured", "obs_id": 6171, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588962.780432}
+{"detail": "F-S4-20261113-105503-000274", "kind": "dropped", "obs_id": 6172, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588962.780432}
+{"detail": "F-S4-20261113-105503-000275 shot.jpg", "kind": "captured", "obs_id": 6173, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588962.9718862}
+{"detail": "F-S4-20261113-105503-000275", "kind": "dropped", "obs_id": 6174, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588962.9718862}
+{"detail": "F-S4-20261113-105503-000276 shot.jpg", "kind": "captured", "obs_id": 6175, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588963.2245755}
+{"detail": "F-S4-20261113-105503-000276", "kind": "dropped", "obs_id": 6176, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588963.2290885}
+{"detail": "F-S4-20261113-105503-000277 shot.jpg", "kind": "captured", "obs_id": 6177, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588963.4206715}
+{"detail": "F-S4-20261113-105503-000277", "kind": "dropped", "obs_id": 6178, "reason": "sampling", "run_id": "S4-20261113-105503", "ts": 1794588963.4206715}
+{"detail": "F-S4-20261113-105503-000278 shot.jpg", "kind": "captured", "obs_id": 6179, "reason": null, "run_id": "S4-20261113-105503", "ts": 1794588963.6408129}
