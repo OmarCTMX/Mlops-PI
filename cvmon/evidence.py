@@ -49,6 +49,10 @@ def verify_run(conn, data_dir: Path, run_id: str, kind: str, recalc_rows: list[d
 
     ident_ok = True
     detail = f"sha256 del run {run['model_sha256'][:12]}…"
+    # El archivo a comprobar es el que el run declaró haber cargado (identidad registrada en el run)
+    run_file = json.loads(run["model_identity_json"] or "{}").get("file")
+    if run_file:
+        model_path = (ROOT / run_file) if not Path(run_file).is_absolute() else Path(run_file)
     if model_path and model_path.is_file():
         ident_ok = sha256_file(model_path) == run["model_sha256"]
         detail += " coincide con el archivo del repo" if ident_ok else " NO coincide con el archivo del repo"
