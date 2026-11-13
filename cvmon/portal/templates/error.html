@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Error {{ status }}{% endblock %}
+{% block content %}
+<div class="card error" role="alert">
+  <h2>{% if status == 404 %}No encontrado{% else %}Solicitud no válida{% endif %}</h2>
+  <p>{{ message }}</p>
+  <p><a href="javascript:history.back()">Volver</a> · <a href="/">Ir al resumen</a></p>
+</div>
+{% endblock %}

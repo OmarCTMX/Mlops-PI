@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% from "_macros.html" import zone, status, sev, astatus %}
+{% block title %}Alerta {{ a.alert_id }}{% endblock %}
+{% block content %}
+<p><a href="/alerts?run={{ a.run_id }}">← Alertas del run</a></p>
+<h2>Alerta {{ a.alert_id }}</h2>
+<div class="two">
+<section class="card" aria-labelledby="h-a">
+  <h3 id="h-a">Resumen</h3>
+  <dl class="kv">
+    <dt>Momento</dt><dd>{{ a.fired_at }}</dd>
+    <dt>Estado</dt><dd>{{ astatus(a.status) }}{% if a.resolved_at %} el {{ a.resolved_at }}{% endif %}</dd>
+    <dt>Severidad</dt><dd>{{ sev(a.severity) }}</dd>
+    <dt>Motivo</dt><dd>{{ a.reason }}</dd>
+    <dt>Acción sugerida</dt><dd>{{ a.suggested_action }}</dd>
+    <dt>Run</dt><dd><a href="/runs/{{ a.run_id }}">{{ a.run_id }}</a></dd>
+    <dt>Configuración</dt><dd><code>{{ a.config_hash }}</code></dd>
+    <dt>Ventana</dt><dd>{{ a.window_start_epoch | ts }} → {{ a.window_end_epoch | ts }}</dd>
+  </dl>
+</section>
+<section class="card" aria-labelledby="h-r">
+  <h3 id="h-r">Regla {{ a.rule_id }} ({{ a.rule_type }})</h3>
+  <pre>{{ rule | tojson(indent=2) }}</pre>
+  <h4>Observación que la originó</h4>
+  <pre>{{ obs | tojson(indent=2) }}</pre>
+</section>
+</div>
+<section class="card" aria-labelledby="h-e">
+  <h3 id="h-e">Eventos vinculados ({{ events | length }})</h3>
+  {% if events %}
+  <div class="tablewrap"><table>
+    <thead><tr><th scope="col">Evento</th><th scope="col">Fecha</th><th scope="col">Estado</th><th scope="col">Predicción</th><th scope="col">Confianza</th><th scope="col">Zona</th><th scope="col">Captura</th></tr></thead>
+    <tbody>{% for e in events %}<tr><td><a href="/events/{{ e.event_id }}">{{ e.event_id }}</a></td><td>{{ e.captured_at }}</td><td>{{ status(e.status) }}</td>
+      <td>{{ e.pred_label or '-' }}</td><td class="num">{{ e.confidence | f3 }}</td><td>{{ zone(e.zone) }}</td>
+      <td>{% if e.capture_path %}<a href="/{{ e.capture_path }}">ver</a>{% else %}-{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+  {% else %}<p class="muted">Sin eventos vinculados.</p>{% endif %}
+</section>
+<section class="card" aria-labelledby="h-v">
+  <h3 id="h-v">Últimas evaluaciones de la regla hasta el disparo</h3>
+  <table><thead><tr><th scope="col">Instante</th><th scope="col">Resultado</th><th scope="col">Muestras</th><th scope="col">Valor</th><th scope="col">Detalle</th></tr></thead>
+  <tbody>{% for v in evals %}<tr><td>{{ v.ts | ts }}</td><td>{{ v.outcome }}</td><td class="num">{{ v.n_samples }}</td><td class="num">{{ v.value | f3 }}</td><td>{{ v.detail }}</td></tr>{% endfor %}</tbody></table>
+</section>
+{% endblock %}

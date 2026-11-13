@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Stream en vivo{% endblock %}
+{% block content %}
+<h2>Stream en vivo</h2>
+<p class="muted">Último frame inferido con su predicción. Se actualiza cada segundo mientras el pipeline está en ejecución.</p>
+<div class="two">
+  <section class="card" aria-labelledby="h-f">
+    <h3 id="h-f">Último frame</h3>
+    <img id="frame" class="capture" alt="Último frame procesado" src="/live/latest.jpg" onerror="this.alt='Aún no hay frames procesados'">
+  </section>
+  <section class="card" aria-labelledby="h-d" aria-live="polite">
+    <h3 id="h-d">Última inferencia</h3>
+    <dl class="kv" id="meta"><dt>Estado</dt><dd>Esperando datos…</dd></dl>
+  </section>
+</div>
+<script>
+const ZN = {accepted: "● aceptada", doubt: "■ duda", low: "▲ baja"};
+async function tick() {
+  try {
+    const m = await (await fetch("/api/live")).json();
+    const dl = document.getElementById("meta");
+    if (!m.available) { dl.innerHTML = "<dt>Estado</dt><dd>Sin frames procesados todavía</dd>"; return; }
+    document.getElementById("frame").src = "/live/latest.jpg?" + Date.now();
+    const stale = m.age_s > 10 ? " (sin frames nuevos hace " + m.age_s.toFixed(0) + " s)" : "";
+    const row = (k, v) => `<dt>${k}</dt><dd>${v}</dd>`;
+    dl.innerHTML = row("Predicción", m.label) + row("Confianza", m.confidence.toFixed(3)) + row("Zona", ZN[m.zone] || m.zone) +
+      row("Inferencia", m.inference_ms.toFixed(1) + " ms") + row("Antigüedad", m.age_s.toFixed(1) + " s" + stale) +
+      row("Evento", `<a href="/events/${m.event_id}">${m.event_id}</a>`);
+  } catch (e) { /* reintenta en el siguiente ciclo */ }
+}
+tick(); setInterval(tick, 1000);
+</script>
+{% endblock %}

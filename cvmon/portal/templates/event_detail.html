@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% from "_macros.html" import zone, status, sev, astatus %}
+{% block title %}Evento {{ e.event_id }}{% endblock %}
+{% block content %}
+<p><a href="/events?run={{ e.run_id }}">← Eventos del run</a>
+  {% if prev %} · <a href="/events/{{ prev.event_id }}">Evento anterior</a>{% endif %}
+  {% if next %} · <a href="/events/{{ next.event_id }}">Evento siguiente</a>{% endif %}</p>
+<h2>Evento {{ e.event_id }}</h2>
+<div class="two">
+  <section class="card" aria-labelledby="h-id">
+    <h3 id="h-id">Identidad y resultado</h3>
+    <dl class="kv">
+      <dt>Run</dt><dd><a href="/runs/{{ e.run_id }}">{{ e.run_id }}</a> (secuencia {{ e.seq }})</dd>
+      <dt>Frame</dt><dd><code>{{ e.frame_id }}</code></dd>
+      <dt>Tarea</dt><dd>{{ e.task }}</dd>
+      <dt>Fecha de captura</dt><dd>{{ e.captured_at }}</dd>
+      <dt>Fuente</dt><dd>{{ e.source_id }}{% if e.source_ref %} ({{ e.source_ref }}){% endif %}</dd>
+      <dt>Modelo</dt><dd>{{ e.model_id }} · versión {{ e.model_version }}</dd>
+      <dt>Estado</dt><dd>{{ status(e.status) }}{% if e.error_msg %} — {{ e.error_msg }}{% endif %}</dd>
+      <dt>Predicción</dt><dd>{{ e.pred_label or '-' }}{% if e.pred_class_id is not none %} (clase {{ e.pred_class_id }}){% endif %}</dd>
+      <dt>Confianza</dt><dd>{{ e.confidence | f3 }} → {{ zone(e.zone) }}</dd>
+      <dt>Umbrales usados</dt><dd>inferior {{ e.threshold_lower }} · superior {{ e.threshold_upper }}</dd>
+      <dt>Configuración</dt><dd><code>{{ e.config_hash }}</code></dd>
+      <dt>Tiempos</dt><dd>inferencia {{ e.inference_ms | f1 }} ms · preproceso {{ e.preprocess_ms | f1 }} ms · cola {{ e.queue_wait_ms | f1 }} ms · extremo a extremo {{ e.e2e_ms | f1 }} ms</dd>
+      <dt>Captura</dt><dd>{% if e.capture_path %}<code>{{ e.capture_path }}</code> (motivo: {{ e.capture_reason }}){% else %}no se conservó imagen (política de captura selectiva){% endif %}</dd>
+    </dl>
+    {% if topk %}
+    <table><caption>Top-{{ topk | length }} del modelo</caption>
+      <thead><tr><th scope="col">Clase</th><th scope="col">Puntuación</th></tr></thead>
+      <tbody>{% for t in topk %}<tr><td>{{ t.label }}</td><td class="num">{{ '%.4f' % t.score }}</td></tr>{% endfor %}</tbody></table>
+    {% endif %}
+  </section>
+  <section class="card" aria-labelledby="h-img">
+    <h3 id="h-img">Imagen capturada</h3>
+    {% if e.capture_path %}
+      <img class="capture" src="/{{ e.capture_path }}" alt="Captura del evento {{ e.event_id }}: {{ e.pred_label or 'sin predicción' }}, confianza {{ e.confidence | f3 }}">
+      <form method="post" action="/reviews" class="filters" style="margin-top:.75rem">
+        <input type="hidden" name="event_id" value="{{ e.event_id }}"><input type="hidden" name="back" value="/events/{{ e.event_id }}">
+        <label>Revisión manual
+          <select name="verdict">{% for v, n in [('correct','predicción plausible'),('incorrect','predicción incorrecta'),('unsure','no estoy seguro')] %}<option value="{{ v }}"{% if review and review.verdict == v %} selected{% endif %}>{{ n }}</option>{% endfor %}</select></label>
+        <label>Nota <input name="note" value="{{ review.note if review and review.note else '' }}" maxlength="500"></label>
+        <button type="submit">Guardar revisión</button>
+      </form>
+      {% if review %}<p class="muted">Revisado {{ review.reviewed_at }}: {{ review.verdict }}</p>{% endif %}
+    {% else %}<p class="empty">Este evento no tiene captura: la política solo conserva baja confianza, duda y una muestra normal.</p>{% endif %}
+  </section>
+</div>
+
+<section class="card" id="alertas" aria-labelledby="h-al">
+  <h3 id="h-al">Alertas vinculadas</h3>
+  {% if alerts %}
+  <table><thead><tr><th scope="col">Alerta</th><th scope="col">Regla</th><th scope="col">Severidad</th><th scope="col">Estado</th><th scope="col">Motivo</th></tr></thead>
+  <tbody>{% for a in alerts %}<tr><td><a href="/alerts/{{ a.alert_id }}">{{ a.alert_id }}</a></td><td>{{ a.rule_id }}</td><td>{{ sev(a.severity) }}</td><td>{{ astatus(a.status) }}</td><td>{{ a.reason }}</td></tr>{% endfor %}</tbody></table>
+  {% else %}<p class="muted">Ninguna alerta usó este evento como evidencia.</p>{% endif %}
+</section>
+<details class="card"><summary>Configuración completa usada ({{ e.config_hash }})</summary>
+  {% if config_json %}<pre>{{ config_json }}</pre>{% else %}<p>La configuración no está disponible.</p>{% endif %}</details>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Run {{ r.run_id }}{% endblock %}
+{% block content %}
+<p><a href="/runs">← Runs</a></p>
+<h2>Run {{ r.run_id }}</h2>
+<div class="two">
+<section class="card" aria-labelledby="h-r">
+  <h3 id="h-r">Identidad de la ejecución</h3>
+  <dl class="kv">
+    <dt>Escenario</dt><dd>{{ r.scenario }}</dd>
+    <dt>Inicio / fin</dt><dd>{{ r.started_at }} / {{ r.ended_at or 'en curso' }}</dd>
+    <dt>Commit</dt><dd><code>{{ r.git_commit or '-' }}</code>{% if r.git_dirty %} (árbol con cambios sin confirmar){% endif %}</dd>
+    <dt>Configuración</dt><dd><code>{{ r.config_hash }}</code></dd>
+    <dt>Fuente</dt><dd>{{ r.source_id }} ({{ r.source_type }})</dd>
+    <dt>Notas</dt><dd>{{ r.notes or '-' }}</dd>
+  </dl>
+  <p><a href="/events?run={{ r.run_id }}">Eventos</a> · <a href="/alerts?run={{ r.run_id }}">Alertas</a> · <a href="/metrics?run={{ r.run_id }}">Métricas</a> · <a href="/gallery?run={{ r.run_id }}">Capturas</a></p>
+</section>
+<section class="card" aria-labelledby="h-m">
+  <h3 id="h-m">Identidad del modelo (R1.3)</h3>
+  <dl class="kv">
+    <dt>Modelo / versión</dt><dd>{{ ident.model_id }} / {{ ident.version }}</dd>
+    <dt>Archivo</dt><dd>{{ ident.file }}</dd>
+    <dt>SHA-256</dt><dd><code>{{ ident.sha256 }}</code></dd>
+    <dt>Tarea / clases</dt><dd>{{ ident.task }} · {{ ident.num_classes }} clases ({{ ident.labels_file }})</dd>
+    <dt>Entrada</dt><dd>{{ ident.input_shape }}</dd>
+    <dt>Preprocesamiento</dt><dd>{{ ident.preprocessing }}</dd>
+    <dt>Confianza</dt><dd>{{ ident.confidence_definition }}</dd>
+    <dt>Procedencia</dt><dd>{{ ident.origin }}</dd>
+    <dt>Entorno</dt><dd>Python {{ ident.environment.python }} · onnxruntime {{ ident.environment.onnxruntime }} ({{ ident.environment.execution_provider }}) · OpenCV {{ ident.environment.opencv }} · NumPy {{ ident.environment.numpy }} · {{ ident.environment.platform }} {{ ident.environment.machine }}</dd>
+  </dl>
+</section>
+</div>
+<div class="two">
+<section class="card" aria-labelledby="h-o">
+  <h3 id="h-o">Observaciones del stream</h3>
+  {% if obs %}<table><thead><tr><th scope="col">Tipo</th><th scope="col">Motivo</th><th scope="col">Cantidad</th></tr></thead>
+  <tbody>{% for o in obs %}<tr><td>{{ o.kind }}</td><td>{{ o.reason or '-' }}</td><td class="num">{{ o.n }}</td></tr>{% endfor %}</tbody></table>
+  {% else %}<p class="empty">Sin observaciones del stream.</p>{% endif %}
+</section>
+<section class="card" aria-labelledby="h-v">
+  <h3 id="h-v">Evaluaciones de reglas</h3>
+  {% if evals %}<table><thead><tr><th scope="col">Regla</th><th scope="col">Resultado</th><th scope="col">Evaluaciones registradas</th></tr></thead>
+  <tbody>{% for v in evals %}<tr><td>{{ v.rule_id }}</td><td>{{ v.outcome }}</td><td class="num">{{ v.n }}</td></tr>{% endfor %}</tbody></table>
+  <p class="muted"><code>insufficient_evidence</code> significa que no hubo observaciones suficientes para evaluar; no se interpreta como normalidad.</p>
+  {% else %}<p class="empty">Sin evaluaciones.</p>{% endif %}
+</section>
+</div>
+<details class="card"><summary>Configuración completa ({{ r.config_hash }})</summary><pre>{{ config_json }}</pre></details>
+{% endblock %}

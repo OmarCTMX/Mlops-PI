@@ -1,0 +1,112 @@
+# Configuración reproducible del Centro de monitoreo de computer vision (Proyecto 6).
+# Todo valor que afecta a la política de confianza, al muestreo o a las alertas vive aquí.
+# El hash SHA-256 de este archivo (normalizado) se guarda en cada evento (config_hash).
+
+project:
+  student: "Omar Ramirez"
+  name: "Centro de monitoreo de computer vision"
+
+# ---------------------------------------------------------------- Fuente visual
+source:
+  id: phone-ipwebcam-01          # identificador estable de la fuente (aparece en cada evento)
+  type: ipwebcam                 # ipwebcam | webcam | video | sequence
+  # ipwebcam: app "IP Webcam" (Android). Se consulta una foto por petición.
+  url: "http://192.168.90.130:8080"   # AJUSTAR a la IP que muestra la app
+  snapshot_path: "/shot.jpg"
+  read_timeout_s: 3.0
+  # webcam
+  device_index: 0
+  # video / sequence
+  path: null
+  # Ritmo al que se lee la fuente (frames/s). En ipwebcam/webcam es el ritmo de captura objetivo;
+  # en video/sequence es el ritmo de reproducción (progresivo, no en lote).
+  capture_fps: 5.0
+  reconnect_interval_s: 2.0      # espera entre intentos de reconexión tras un fallo de lectura
+
+# ---------------------------------------------------------------- Muestreo (R1.1)
+sampling:
+  # Política: de los frames capturados se infiere uno cada sample_interval_s.
+  # Los demás se descartan con motivo "sampling". Si la cola de inferencia está llena
+  # el frame se descarta con motivo "saturation".
+  sample_interval_s: 1.0
+  queue_size: 2
+
+# ---------------------------------------------------------------- Modelo (R1.3)
+model:
+  model_id: mobilenetv2-12
+  version: "mobilenetv2-12"       # versión declarada del artefacto
+  expected_version: "mobilenetv2-12"   # versión que el despliegue espera ver reportada (G6)
+  path: models/mobilenetv2-12.onnx
+  labels_path: models/synset.txt
+  sha256: C0C3F76D93FA3FD6580652A45618618A220FCED18BABF65774ED169DE0432AD5
+  task: classification
+  input_size: 224
+  topk: 5
+
+# ---------------------------------------------------------------- Política de confianza (R3)
+# 0 <= lower < upper <= 1. Valores provisionales hasta ejecutar el escenario REF
+# (scripts/justify_thresholds.py). Se congelan ANTES de C1/C2.
+thresholds:
+  lower: 0.40      # s <  lower          -> zona "low"   (baja confianza)
+  upper: 0.70      # lower <= s < upper  -> zona "doubt" (duda); s >= upper -> "accepted"
+
+reference:
+  path: config/reference.json    # generado por scripts/build_reference.py (escenario REF)
+  min_observations: 30           # mínimo de observaciones para considerar válida la referencia
+
+# ---------------------------------------------------------------- Captura de imágenes (R4.3)
+capture:
+  save_zones: [low, doubt]       # se guarda toda captura con estas zonas
+  normal_sample_every_n: 10      # y 1 de cada N eventos aceptados (muestra normal)
+  save_on_error: false
+  # Sin expiración automática: no existe ningún proceso de borrado ni TTL.
+
+# ---------------------------------------------------------------- Alertas (R5)
+alerts:
+  evaluation_log_every_s: 10     # frecuencia mínima de registro de evaluaciones sin cambio
+  rules:
+    - id: R-LOWCONF
+      type: low_confidence_share
+      severity: high
+      window_events: 10          # últimos N eventos con puntuación
+      min_samples: 6             # con menos, resultado = evidencia_insuficiente (no es normalidad)
+      fire_share: 0.50           # se dispara si la proporción de zona "low" >= 0.50
+      clear_share: 0.20          # se resuelve cuando la proporción baja de 0.20
+      action: "Revisar encuadre, iluminación y enfoque de la fuente; inspeccionar las capturas vinculadas."
+    - id: R-SHIFT
+      type: confidence_shift
+      severity: medium
+      window_events: 15          # ventana reciente
+      min_samples: 10
+      drop_delta: 0.15           # media reciente < media_referencia - delta
+      sustain_events: 5          # debe mantenerse durante N evaluaciones consecutivas (cambio sostenido)
+      clear_fraction: 0.5        # se resuelve cuando la caída es menor a delta*clear_fraction
+      action: "Comparar contra la referencia; verificar escena, versión del modelo y preprocesamiento."
+    - id: R-STALE
+      type: stream_stale
+      severity: critical
+      max_age_s: 10.0            # sin frames válidos durante este tiempo
+      action: "Verificar la app/cámara, la red y la URL de la fuente; reiniciar la captura."
+    - id: R-INFERR
+      type: inference_error_rate
+      severity: high
+      window_events: 10          # últimos N intentos de inferencia (ok + error)
+      min_samples: 5
+      max_rate: 0.30
+      clear_rate: 0.10
+      action: "Revisar el log de errores y la validez de las imágenes de entrada."
+    - id: R-VERSION
+      type: version_mismatch
+      severity: medium
+      window_events: 5           # últimos N eventos (cualquier estado)
+      min_samples: 5
+      fire_share: 1.0            # todos los eventos de la ventana reportan una versión distinta de la esperada
+      clear_share: 0.0
+      action: "Confirmar que se desplegó el artefacto esperado (model.expected_version) o actualizar la versión esperada tras validarla."
+
+# ---------------------------------------------------------------- Observabilidad (R2)
+resources:
+  sample_interval_s: 2.0
+metrics:
+  snapshot_interval_s: 10
+  window_s: 60                   # ventana de las métricas por tasa (FPS, etc.)

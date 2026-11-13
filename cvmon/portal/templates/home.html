@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% from "_macros.html" import zone, sev, astatus, run_select %}
+{% block title %}Resumen{% endblock %}
+{% block content %}
+<h2>Resumen</h2>
+{% if not runs %}
+<p class="empty">Aún no hay runs registrados. Ejecuta <code>python -m cvmon run --scenario C1</code> para generar eventos.</p>
+{% else %}
+<form class="filters card" method="get" action="/">
+  {{ run_select(runs, sel, 'run', 'Más reciente') }}
+  <button type="submit">Ver run</button>
+</form>
+<section class="grid kpis" aria-label="Indicadores del run {{ sel }}">
+  <div class="card kpi"><div class="v">{{ kpi.events }}</div><div class="l">Eventos</div></div>
+  <div class="card kpi"><div class="v">{{ kpi.zones.get('accepted', 0) }}</div><div class="l">● Aceptadas</div></div>
+  <div class="card kpi"><div class="v">{{ kpi.zones.get('doubt', 0) }}</div><div class="l">■ En duda</div></div>
+  <div class="card kpi"><div class="v">{{ kpi.zones.get('low', 0) }}</div><div class="l">▲ Baja confianza</div></div>
+  <div class="card kpi"><div class="v">{{ kpi.alerts_active }} / {{ kpi.alerts_total }}</div><div class="l">Alertas activas / total</div></div>
+  <div class="card kpi"><div class="v">{{ kpi.captures }}</div><div class="l">Capturas vinculadas</div></div>
+</section>
+
+<section aria-labelledby="h-graf">
+  <h2 id="h-graf">Gráficas del run {{ sel }}</h2>
+  <div id="charts" class="grid charts" data-run="{{ sel }}">
+    <div class="card"><h3>Confianza por evento</h3><div id="ch-timeline"></div>
+      <div class="legend"><span>● aceptada</span><span>■ duda</span><span>▲ baja</span><span>línea discontinua: umbrales</span><span>línea roja: alerta</span></div></div>
+    <div class="card"><h3>Eventos por zona</h3><div id="ch-zones"></div></div>
+    <div class="card"><h3>Confianza vs referencia</h3><div id="ch-hist"></div></div>
+    <div class="card"><h3>Tiempo de inferencia</h3><div id="ch-latency"></div></div>
+  </div>
+  <noscript><p class="empty">Las gráficas requieren JavaScript. Los datos están disponibles en <a href="/events?run={{ sel }}">Eventos</a> y en <a href="/api/series?run={{ sel }}">/api/series</a>.</p></noscript>
+</section>
+<script src="/static/charts.js" defer></script>
+
+<section aria-labelledby="h-al">
+  <h2 id="h-al">Alertas recientes</h2>
+  {% if recent_alerts %}
+  <div class="tablewrap"><table>
+    <caption class="muted">Últimas 5 alertas</caption>
+    <thead><tr><th scope="col">Momento</th><th scope="col">Regla</th><th scope="col">Severidad</th><th scope="col">Estado</th><th scope="col">Motivo</th></tr></thead>
+    <tbody>{% for a in recent_alerts %}
+      <tr><td>{{ a.fired_at }}</td><td><a href="/alerts/{{ a.alert_id }}">{{ a.rule_id }}</a></td><td>{{ sev(a.severity) }}</td><td>{{ astatus(a.status) }}</td><td>{{ a.reason }}</td></tr>
+    {% endfor %}</tbody></table></div>
+  {% else %}<p class="empty">Sin alertas en este run. Esto no implica normalidad si hubo evidencia insuficiente: revisa las evaluaciones en <a href="/runs/{{ sel }}">el detalle del run</a>.</p>{% endif %}
+</section>
+{% endif %}
+{% endblock %}

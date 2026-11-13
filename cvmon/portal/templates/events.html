@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% from "_macros.html" import zone, status, run_select %}
+{% block title %}Eventos{% endblock %}
+{% block content %}
+<h2>Eventos</h2>
+<form class="filters card" method="get" action="/events" aria-label="Filtros de eventos">
+  {{ run_select(runs, f.get('run')) }}
+  <label>Zona
+    <select name="zone"><option value="">Todas</option>
+      {% for z, n in [('accepted','aceptada'),('doubt','duda'),('low','baja')] %}<option value="{{ z }}"{% if f.get('zone') == z %} selected{% endif %}>{{ n }}</option>{% endfor %}
+    </select></label>
+  <label>Estado
+    <select name="status"><option value="">Todos</option>
+      {% for s in ['ok','inference_error','invalid_input'] %}<option value="{{ s }}"{% if f.get('status') == s %} selected{% endif %}>{{ s }}</option>{% endfor %}
+    </select></label>
+  <label>Fuente
+    <select name="source"><option value="">Todas</option>{% for s in sources %}<option{% if f.get('source') == s %} selected{% endif %}>{{ s }}</option>{% endfor %}</select></label>
+  <label>Versión modelo
+    <select name="model_version"><option value="">Todas</option>{% for s in versions %}<option{% if f.get('model_version') == s %} selected{% endif %}>{{ s }}</option>{% endfor %}</select></label>
+  <label>Clase contiene <input name="label" value="{{ f.get('label','') }}" size="14"></label>
+  <label>Confianza mín. <input name="min_conf" value="{{ f.get('min_conf','') }}" size="5" inputmode="decimal"></label>
+  <label>Confianza máx. <input name="max_conf" value="{{ f.get('max_conf','') }}" size="5" inputmode="decimal"></label>
+  <label>Desde <input name="since" type="datetime-local" value="{{ f.get('since','') }}"></label>
+  <label>Hasta <input name="until" type="datetime-local" value="{{ f.get('until','') }}"></label>
+  <label><span><input type="checkbox" name="with_capture" value="1"{% if f.get('with_capture') %} checked{% endif %}> Con captura</span></label>
+  <label><span><input type="checkbox" name="alerted" value="1"{% if f.get('alerted') %} checked{% endif %}> Con alerta</span></label>
+  <button type="submit">Filtrar</button>
+  <a class="btn secondary" href="/events">Limpiar</a>
+</form>
+
+<p>{{ total }} evento{{ '' if total == 1 else 's' }}.
+  Exportar filtrado: <a href="/export/events.csv?{{ qs }}">CSV</a> · <a href="/export/events.json?{{ qs }}">JSON</a></p>
+
+{% if rows %}
+<div class="tablewrap"><table>
+  <caption class="muted">Eventos ordenados del más reciente al más antiguo (página {{ page }} de {{ pages }})</caption>
+  <thead><tr>
+    <th scope="col">Evento</th><th scope="col">Fecha (UTC)</th><th scope="col">Fuente</th><th scope="col">Modelo</th>
+    <th scope="col">Estado</th><th scope="col">Predicción</th><th scope="col">Confianza</th><th scope="col">Zona</th>
+    <th scope="col">Captura</th><th scope="col">Alertas</th></tr></thead>
+  <tbody>
+  {% for e in rows %}
+  <tr>
+    <td><a href="/events/{{ e.event_id }}">{{ e.event_id }}</a></td>
+    <td>{{ e.captured_at }}</td><td>{{ e.source_id }}</td><td>{{ e.model_id }}<br><span class="muted">{{ e.model_version }}</span></td>
+    <td>{{ status(e.status) }}</td>
+    <td>{{ e.pred_label or '-' }}</td>
+    <td class="num">{{ e.confidence | f3 }}</td>
+    <td>{{ zone(e.zone) }}</td>
+    <td>{% if e.capture_path %}<a href="/{{ e.capture_path }}">{{ e.capture_reason }}</a>{% else %}-{% endif %}</td>
+    <td class="num">{% if e.n_alerts %}<a href="/events/{{ e.event_id }}#alertas">{{ e.n_alerts }}</a>{% else %}0{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody></table></div>
+<nav class="pager" aria-label="Paginación">
+  {% if page > 1 %}<a class="btn secondary" href="/events?{{ qs }}&page={{ page - 1 }}">← Anterior</a>{% endif %}
+  <span>Página {{ page }} de {{ pages }}</span>
+  {% if page < pages %}<a class="btn secondary" href="/events?{{ qs }}&page={{ page + 1 }}">Siguiente →</a>{% endif %}
+</nav>
+{% else %}
+<p class="empty">No hay eventos que coincidan con los filtros.</p>
+{% endif %}
+{% endblock %}

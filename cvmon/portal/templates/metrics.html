@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "_macros.html" import run_select %}
+{% block title %}Métricas{% endblock %}
+{% block content %}
+<h2>Métricas</h2>
+<form class="filters card" method="get" action="/metrics">
+  {{ run_select(runs, sel, 'run', 'Más reciente') }}<button type="submit">Ver</button>
+</form>
+{% if items %}
+{% for section, title in [(True, 'Métricas base (una por grupo G1–G7)'), (False, 'Métricas adicionales')] %}
+<section class="card" aria-labelledby="h-{{ loop.index }}">
+  <h3 id="h-{{ loop.index }}">{{ title }}</h3>
+  <div class="tablewrap"><table>
+    <caption class="muted">Último cálculo del run {{ sel }}. Valor vacío = sin observaciones (no es cero).</caption>
+    <thead><tr><th scope="col">Grupo</th><th scope="col">Métrica</th><th scope="col">Valor</th><th scope="col">n</th><th scope="col">Definición</th><th scope="col">Detalle</th></tr></thead>
+    <tbody>{% for it in items if it.base == section %}
+      <tr><td>{{ it.r.grp }}</td><td><code>{{ it.r.metric_id }}</code><br>{{ it.desc }}</td>
+          <td class="num">{% if it.r.value is none %}<span class="muted">sin datos</span>{% else %}{{ '%.4f' % it.r.value }}{% endif %}</td>
+          <td class="num">{{ it.r.n }}</td><td>{{ it.doc }}</td><td><code>{{ it.detail | tojson }}</code></td></tr>
+    {% endfor %}</tbody></table></div>
+</section>
+{% endfor %}
+<p class="muted">Recalcular de forma independiente: <code>python -m cvmon recalc --export &lt;dir&gt; --data-dir data --run {{ sel }}</code></p>
+{% else %}<p class="empty">No hay métricas registradas para este run.</p>{% endif %}
+{% endblock %}

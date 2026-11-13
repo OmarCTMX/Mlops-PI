@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Centro de monitoreo{% endblock %} · Centro de monitoreo CV</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Ir al contenido</a>
+<header class="site">
+  <h1>Centro de monitoreo de computer vision</h1>
+  <div class="sub">Proyecto 6 · ITESO MLOps · {{ student }}</div>
+</header>
+{% set nav = [('/', 'Resumen'), ('/events', 'Eventos'), ('/alerts', 'Alertas'), ('/metrics', 'Métricas'), ('/live', 'Stream en vivo'), ('/gallery', 'Capturas'), ('/runs', 'Runs')] %}
+<nav class="main" aria-label="Principal">
+  {% for href, label in nav %}
+  <a href="{{ href }}"{% if request.url.path == href or (href != '/' and request.url.path.startswith(href + '/')) %} aria-current="page"{% endif %}>{{ label }}</a>
+  {% endfor %}
+</nav>
+<main id="contenido">
+{% block content %}{% endblock %}
+</main>
+</body>
+</html>

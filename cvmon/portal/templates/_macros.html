@@ -1,0 +1,28 @@
+{% macro zone(z) -%}
+{%- if z == 'accepted' -%}<span class="badge z-accepted">● aceptada</span>
+{%- elif z == 'doubt' -%}<span class="badge z-doubt">■ duda</span>
+{%- elif z == 'low' -%}<span class="badge z-low">▲ baja</span>
+{%- else -%}<span class="badge z-none">○ sin puntuación</span>{%- endif -%}
+{%- endmacro %}
+
+{% macro status(s) -%}
+{%- if s == 'ok' -%}<span class="badge z-accepted">ok</span>
+{%- elif s == 'inference_error' -%}<span class="badge z-low">error de inferencia</span>
+{%- elif s == 'invalid_input' -%}<span class="badge z-doubt">entrada inválida</span>
+{%- else -%}<span class="badge z-none">{{ s }}</span>{%- endif -%}
+{%- endmacro %}
+
+{% macro sev(s) -%}<span class="badge sev-{{ s }}">{{ s }}</span>{%- endmacro %}
+
+{% macro astatus(s) -%}
+{%- if s == 'active' -%}<span class="badge st-active">activa</span>{%- else -%}<span class="badge st-resolved">resuelta</span>{%- endif -%}
+{%- endmacro %}
+
+{% macro run_select(runs, selected, name='run', all_label='Todos') -%}
+<label>Run
+  <select name="{{ name }}">
+    <option value="">{{ all_label }}</option>
+    {% for r in runs %}<option value="{{ r.run_id }}"{% if r.run_id == selected %} selected{% endif %}>{{ r.run_id }}</option>{% endfor %}
+  </select>
+</label>
+{%- endmacro %}

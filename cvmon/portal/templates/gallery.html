@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import zone, run_select %}
+{% block title %}Capturas{% endblock %}
+{% block content %}
+<h2>Capturas y revisión manual</h2>
+<form class="filters card" method="get" action="/gallery">
+  {{ run_select(runs, f.run) }}
+  <label>Motivo de captura
+    <select name="reason"><option value="">Todos</option>
+      {% for r in ['low_confidence','doubt','normal_sample'] %}<option{% if f.reason == r %} selected{% endif %}>{{ r }}</option>{% endfor %}</select></label>
+  <label>Revisión
+    <select name="verdict"><option value="">Todas</option>
+      {% for v, n in [('pending','pendiente'),('correct','plausible'),('incorrect','incorrecta'),('unsure','dudosa')] %}<option value="{{ v }}"{% if f.verdict == v %} selected{% endif %}>{{ n }}</option>{% endfor %}</select></label>
+  <button type="submit">Filtrar</button><a class="btn secondary" href="/gallery">Limpiar</a>
+</form>
+{% if rows %}
+<div class="gallery">
+{% for e in rows %}
+<figure class="card">
+  <a href="/events/{{ e.event_id }}"><img class="capture" loading="lazy" src="/{{ e.capture_path }}" alt="Captura {{ e.event_id }}: {{ e.pred_label or 'sin predicción' }}"></a>
+  <figcaption>
+    <strong>{{ e.pred_label or '-' }}</strong> {{ e.confidence | f3 }} {{ zone(e.zone) }}<br>
+    <span class="muted">{{ e.capture_reason }} · {{ e.captured_at }}</span><br>
+    {% if e.verdict %}Revisión: <em>{{ e.verdict }}</em>{% if e.note %} — {{ e.note }}{% endif %}{% else %}<span class="muted">Sin revisar</span>{% endif %}
+    <form method="post" action="/reviews" class="filters" style="margin-top:.4rem">
+      <input type="hidden" name="event_id" value="{{ e.event_id }}"><input type="hidden" name="back" value="/gallery">
+      <label>Veredicto <select name="verdict">{% for v, n in [('correct','plausible'),('incorrect','incorrecta'),('unsure','dudosa')] %}<option value="{{ v }}"{% if e.verdict == v %} selected{% endif %}>{{ n }}</option>{% endfor %}</select></label>
+      <button type="submit">Guardar</button>
+    </form>
+  </figcaption>
+</figure>
+{% endfor %}
+</div>
+{% else %}<p class="empty">No hay capturas con estos filtros.</p>{% endif %}
+{% endblock %}
