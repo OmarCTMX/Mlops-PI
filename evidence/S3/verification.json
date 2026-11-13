@@ -1,0 +1,50 @@
+[
+  {
+    "id": "V1",
+    "description": "Inferencias reales atribuibles a un modelo identificado",
+    "passed": true,
+    "detail": "27 inferencias ok; sha256 del run C0C3F76D93FA… coincide con el archivo del repo"
+  },
+  {
+    "id": "V2",
+    "description": "Confianza y clase coinciden con la salida top-k del modelo (no inyectadas)",
+    "passed": true,
+    "detail": "27/27 eventos consistentes"
+  },
+  {
+    "id": "V3",
+    "description": "Capturas vinculadas existen en disco (sin expiración automática)",
+    "passed": true,
+    "detail": "3/3 capturas resuelven"
+  },
+  {
+    "id": "V4",
+    "description": "Cada alerta enlaza regla, configuración, eventos, motivo, severidad y acción",
+    "passed": true,
+    "detail": "0 alertas"
+  },
+  {
+    "id": "V5",
+    "description": "Métricas recalculadas de forma independiente coinciden con las almacenadas",
+    "passed": true,
+    "detail": "13/13"
+  },
+  {
+    "id": "V6",
+    "description": "Las reglas registraron evaluaciones (incluida la evidencia insuficiente)",
+    "passed": true,
+    "detail": "insufficient_evidence=4, ok=9"
+  },
+  {
+    "id": "S3.a",
+    "description": "Se registraron entradas inválidas sin detener el pipeline",
+    "passed": true,
+    "detail": "invalid=3, ok=27"
+  },
+  {
+    "id": "S3.b",
+    "description": "Las entradas inválidas no tienen puntuación ni zona (estado aparte)",
+    "passed": true,
+    "detail": ""
+  }
+]

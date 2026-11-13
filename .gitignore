@@ -6,3 +6,6 @@ data-dev/
 data-test/
 *.log
 .env
+data/live/
+*.db-wal
+*.db-shm

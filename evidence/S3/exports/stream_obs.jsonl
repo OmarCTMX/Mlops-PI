@@ -1,0 +1,30 @@
+{"detail": "F-S3-20261113-104951-000001 0001.jpg", "kind": "captured", "obs_id": 5651, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588591.9305313}
+{"detail": "F-S3-20261113-104951-000002 0002.jpg", "kind": "captured", "obs_id": 5652, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588592.446684}
+{"detail": "F-S3-20261113-104951-000003 0003.jpg", "kind": "captured", "obs_id": 5653, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588592.955804}
+{"detail": "F-S3-20261113-104951-000004 0004.jpg", "kind": "captured", "obs_id": 5654, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588593.4600246}
+{"detail": "F-S3-20261113-104951-000005 0005.jpg: No se pudo decodificar la imagen", "kind": "invalid_frame", "obs_id": 5655, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588594.0443869}
+{"detail": "F-S3-20261113-104951-000006 0006.jpg", "kind": "captured", "obs_id": 5656, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588594.5546944}
+{"detail": "F-S3-20261113-104951-000007 0007.jpg", "kind": "captured", "obs_id": 5657, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588595.1333737}
+{"detail": "F-S3-20261113-104951-000008 0008.jpg", "kind": "captured", "obs_id": 5658, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588595.6419582}
+{"detail": "F-S3-20261113-104951-000009 0009.jpg", "kind": "captured", "obs_id": 5659, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588596.1446402}
+{"detail": "F-S3-20261113-104951-000010 0010.jpg", "kind": "captured", "obs_id": 5660, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588596.6656992}
+{"detail": "F-S3-20261113-104951-000011 0011.jpg", "kind": "captured", "obs_id": 5661, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588597.2245939}
+{"detail": "F-S3-20261113-104951-000012 0012.jpg: No se pudo decodificar la imagen", "kind": "invalid_frame", "obs_id": 5662, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588597.6367137}
+{"detail": "F-S3-20261113-104951-000013 0013.jpg", "kind": "captured", "obs_id": 5663, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588598.2079296}
+{"detail": "F-S3-20261113-104951-000014 0014.jpg", "kind": "captured", "obs_id": 5664, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588598.6771624}
+{"detail": "F-S3-20261113-104951-000015 0015.jpg", "kind": "captured", "obs_id": 5665, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588599.1867507}
+{"detail": "F-S3-20261113-104951-000016 0016.jpg", "kind": "captured", "obs_id": 5666, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588599.6948755}
+{"detail": "F-S3-20261113-104951-000017 0017.jpg", "kind": "captured", "obs_id": 5667, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588600.2048264}
+{"detail": "F-S3-20261113-104951-000018 0018.jpg", "kind": "captured", "obs_id": 5668, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588600.7072833}
+{"detail": "F-S3-20261113-104951-000019 0019.jpg", "kind": "captured", "obs_id": 5669, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588601.2122147}
+{"detail": "F-S3-20261113-104951-000020 0020.jpg: No se pudo decodificar la imagen", "kind": "invalid_frame", "obs_id": 5670, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588601.6974728}
+{"detail": "F-S3-20261113-104951-000021 0021.jpg", "kind": "captured", "obs_id": 5671, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588602.2260928}
+{"detail": "F-S3-20261113-104951-000022 0022.jpg", "kind": "captured", "obs_id": 5672, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588602.7324104}
+{"detail": "F-S3-20261113-104951-000023 0023.jpg", "kind": "captured", "obs_id": 5673, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588603.2312121}
+{"detail": "F-S3-20261113-104951-000024 0024.jpg", "kind": "captured", "obs_id": 5674, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588603.7446442}
+{"detail": "F-S3-20261113-104951-000025 0025.jpg", "kind": "captured", "obs_id": 5675, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588604.2450485}
+{"detail": "F-S3-20261113-104951-000026 0026.jpg", "kind": "captured", "obs_id": 5676, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588604.7459576}
+{"detail": "F-S3-20261113-104951-000027 0027.jpg", "kind": "captured", "obs_id": 5677, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588605.2518501}
+{"detail": "F-S3-20261113-104951-000028 0028.jpg", "kind": "captured", "obs_id": 5678, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588605.759758}
+{"detail": "F-S3-20261113-104951-000029 0029.jpg", "kind": "captured", "obs_id": 5679, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588606.265547}
+{"detail": "F-S3-20261113-104951-000030 0030.jpg", "kind": "captured", "obs_id": 5680, "reason": null, "run_id": "S3-20261113-104951", "ts": 1794588606.7686794}

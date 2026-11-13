@@ -1,0 +1,8 @@
+{
+  "original_n": 110,
+  "replay_n": 110,
+  "compared": 110,
+  "max_abs_diff": 0.0,
+  "same_label": 110,
+  "identical": true
+}

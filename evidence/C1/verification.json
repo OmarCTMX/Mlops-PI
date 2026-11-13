@@ -1,0 +1,56 @@
+[
+  {
+    "id": "V1",
+    "description": "Inferencias reales atribuibles a un modelo identificado",
+    "passed": true,
+    "detail": "110 inferencias ok; sha256 del run C0C3F76D93FA… coincide con el archivo del repo"
+  },
+  {
+    "id": "V2",
+    "description": "Confianza y clase coinciden con la salida top-k del modelo (no inyectadas)",
+    "passed": true,
+    "detail": "110/110 eventos consistentes"
+  },
+  {
+    "id": "V3",
+    "description": "Capturas vinculadas existen en disco (sin expiración automática)",
+    "passed": true,
+    "detail": "11/11 capturas resuelven"
+  },
+  {
+    "id": "V4",
+    "description": "Cada alerta enlaza regla, configuración, eventos, motivo, severidad y acción",
+    "passed": true,
+    "detail": "0 alertas"
+  },
+  {
+    "id": "V5",
+    "description": "Métricas recalculadas de forma independiente coinciden con las almacenadas",
+    "passed": true,
+    "detail": "13/13"
+  },
+  {
+    "id": "V6",
+    "description": "Las reglas registraron evaluaciones (incluida la evidencia insuficiente)",
+    "passed": true,
+    "detail": "insufficient_evidence=5, ok=59"
+  },
+  {
+    "id": "C1.a",
+    "description": "Operación normal: hay inferencias suficientes (>= 20) y zona aceptada observada",
+    "passed": true,
+    "detail": "ok=110 zonas={'accepted': 110, 'doubt': 0, 'low': 0}"
+  },
+  {
+    "id": "C1.b",
+    "description": "Operación normal: la baja confianza no domina (< 20 % de las inferencias)",
+    "passed": true,
+    "detail": "baja=0.00"
+  },
+  {
+    "id": "C1.c",
+    "description": "Sin alerta de baja confianza durante la operación normal",
+    "passed": true,
+    "detail": "0 alertas R-LOWCONF"
+  }
+]

@@ -1,0 +1,9 @@
+{"disk_free_gb": 166.648807424, "proc_cpu_pct": 530.4, "proc_rss_mb": 124.370944, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 332, "sys_cpu_pct": 65.4, "ts": 1794588591.9910545}
+{"disk_free_gb": 166.648061952, "proc_cpu_pct": 568.3, "proc_rss_mb": 127.049728, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 333, "sys_cpu_pct": 88.2, "ts": 1794588594.054594}
+{"disk_free_gb": 166.647148544, "proc_cpu_pct": 148.9, "proc_rss_mb": 127.381504, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 334, "sys_cpu_pct": 41.5, "ts": 1794588596.229113}
+{"disk_free_gb": 166.646181888, "proc_cpu_pct": 239.7, "proc_rss_mb": 127.983616, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 335, "sys_cpu_pct": 56.7, "ts": 1794588598.4331832}
+{"disk_free_gb": 166.645280768, "proc_cpu_pct": 597.8, "proc_rss_mb": 128.053248, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 336, "sys_cpu_pct": 74.4, "ts": 1794588600.6431236}
+{"disk_free_gb": 166.6444288, "proc_cpu_pct": 461.7, "proc_rss_mb": 126.496768, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 337, "sys_cpu_pct": 63.1, "ts": 1794588602.6421847}
+{"disk_free_gb": 166.643380224, "proc_cpu_pct": 594.5, "proc_rss_mb": 128.0, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 338, "sys_cpu_pct": 77.3, "ts": 1794588604.669282}
+{"disk_free_gb": 166.642397184, "proc_cpu_pct": 593.9, "proc_rss_mb": 127.750144, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 339, "sys_cpu_pct": 70.5, "ts": 1794588606.6964004}
+{"disk_free_gb": 166.639988736, "proc_cpu_pct": 444.5, "proc_rss_mb": 118.390784, "queue_len": 0, "run_id": "S3-20261113-104951", "sample_id": 340, "sys_cpu_pct": 61.8, "ts": 1794588607.3918676}

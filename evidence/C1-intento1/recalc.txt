@@ -1,0 +1,18 @@
+Recálculo independiente de métricas para C1-20261113-095839
+
+metric_id                       almacenado     recalculado       n  resultado
+G1_inference_ms_p95              96.318550       96.318550     114  OK
+G2_processing_fps                 0.947907        0.947907     114  OK
+G3_process_rss_mb               128.234461      128.234461      58  OK
+G4_low_conf_share                 0.043860        0.043860     114  OK
+G5_trace_coverage                 1.000000        1.000000     114  OK
+G6_version_match_share            1.000000        1.000000     114  OK
+G7_active_alerts                  0.000000        0.000000       2  OK
+X1_capture_fps                    4.557142        4.557142     546  OK
+X2_dropped_share                  0.791209        0.791209     546  OK
+X3_process_cpu_pct              275.444828      275.444828      58  OK
+X4_e2e_ms_p95                   419.450033      419.450033     114  OK
+X5_confidence_psi                 0.956557        0.956557     114  OK
+X6_invalid_input_rate             0.000000        0.000000     114  OK
+
+Coinciden 13/13 métricas

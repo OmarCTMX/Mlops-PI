@@ -1,0 +1,65 @@
+{"detail": "1 < min_samples=5", "eval_id": 94, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585519.6387315, "value": null}
+{"detail": "", "eval_id": 97, "n_samples": 5, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585523.9573202, "value": 0.0}
+{"detail": "", "eval_id": 104, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585534.396816, "value": 0.0}
+{"detail": "", "eval_id": 109, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585544.576492, "value": 0.0}
+{"detail": "", "eval_id": 114, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585555.0702202, "value": 0.0}
+{"detail": "", "eval_id": 119, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585565.5324988, "value": 0.0}
+{"detail": "", "eval_id": 124, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585575.8848135, "value": 0.0}
+{"detail": "", "eval_id": 129, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585586.1631813, "value": 0.0}
+{"detail": "", "eval_id": 134, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585596.4601395, "value": 0.0}
+{"detail": "", "eval_id": 139, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585606.715882, "value": 0.0}
+{"detail": "", "eval_id": 144, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585617.7957628, "value": 0.0}
+{"detail": "", "eval_id": 149, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585628.2782807, "value": 0.0}
+{"detail": "", "eval_id": 154, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "C1-20261113-095839", "ts": 1794585638.8431444, "value": 0.0}
+{"detail": "1 < min_samples=6", "eval_id": 92, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585519.6387315, "value": null}
+{"detail": "disparada", "eval_id": 99, "n_samples": 6, "outcome": "firing", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585525.0310733, "value": 0.8333333333333334}
+{"detail": "resuelta", "eval_id": 102, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585533.3994699, "value": 0.1}
+{"detail": "", "eval_id": 108, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585543.5285697, "value": 0.0}
+{"detail": "", "eval_id": 113, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585554.0507033, "value": 0.0}
+{"detail": "", "eval_id": 118, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585564.5262158, "value": 0.0}
+{"detail": "", "eval_id": 123, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585574.8635182, "value": 0.0}
+{"detail": "", "eval_id": 128, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585585.1538537, "value": 0.0}
+{"detail": "", "eval_id": 132, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585595.4185228, "value": 0.0}
+{"detail": "", "eval_id": 137, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585605.672515, "value": 0.0}
+{"detail": "", "eval_id": 142, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585616.5005028, "value": 0.0}
+{"detail": "", "eval_id": 147, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585626.961087, "value": 0.0}
+{"detail": "", "eval_id": 152, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "C1-20261113-095839", "ts": 1794585637.6638212, "value": 0.0}
+{"detail": "1 < min_samples=10", "eval_id": 93, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585519.6387315, "value": null}
+{"detail": "consec=1", "eval_id": 100, "n_samples": 10, "outcome": "pending", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585529.1495416, "value": 0.28141616211131404}
+{"detail": "disparada", "eval_id": 103, "n_samples": 14, "outcome": "firing", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585533.3994699, "value": 0.19949993696191448}
+{"detail": "resuelta", "eval_id": 106, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585538.4366488, "value": 0.03321451767278594}
+{"detail": "consec=0", "eval_id": 111, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585548.6679592, "value": -0.014635703085635998}
+{"detail": "consec=0", "eval_id": 116, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585559.1672394, "value": 0.005194033571289114}
+{"detail": "consec=0", "eval_id": 121, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585569.788857, "value": -0.03264268380498969}
+{"detail": "consec=0", "eval_id": 126, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585579.9000854, "value": -0.08409457391488928}
+{"detail": "consec=0", "eval_id": 131, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585590.3079376, "value": -0.10600669027915033}
+{"detail": "consec=0", "eval_id": 136, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585600.5707746, "value": -0.12331760321294849}
+{"detail": "consec=0", "eval_id": 141, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585611.0556974, "value": -0.12303353593469324}
+{"detail": "consec=0", "eval_id": 146, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585622.1242266, "value": -0.09600185673149408}
+{"detail": "consec=0", "eval_id": 151, "n_samples": 15, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "C1-20261113-095839", "ts": 1794585632.3304858, "value": -0.08911899478367058}
+{"detail": "aún no se ha recibido ningún frame", "eval_id": 91, "n_samples": 0, "outcome": "insufficient_evidence", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585519.5415134, "value": 0.3925962448120117}
+{"detail": "", "eval_id": 96, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585520.6650019, "value": 0.20153045654296875}
+{"detail": "", "eval_id": 101, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585531.748333, "value": 0.15938711166381836}
+{"detail": "", "eval_id": 107, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585541.7802277, "value": 0.2148299217224121}
+{"detail": "", "eval_id": 112, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585552.766433, "value": 0.337003231048584}
+{"detail": "", "eval_id": 117, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585563.3621628, "value": 0.21547913551330566}
+{"detail": "", "eval_id": 122, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585574.0322917, "value": 0.1807694435119629}
+{"detail": "", "eval_id": 127, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585585.0027316, "value": 0.19289875030517578}
+{"detail": "", "eval_id": 133, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585595.6262255, "value": 0.1434016227722168}
+{"detail": "", "eval_id": 138, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585606.086996, "value": 0.13236474990844727}
+{"detail": "", "eval_id": 143, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585617.1652958, "value": 0.30921387672424316}
+{"detail": "", "eval_id": 148, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585627.1998034, "value": 0.37192368507385254}
+{"detail": "", "eval_id": 153, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "C1-20261113-095839", "ts": 1794585638.3409142, "value": 0.4740936756134033}
+{"detail": "1 < min_samples=5", "eval_id": 95, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585519.6387315, "value": null}
+{"detail": "", "eval_id": 98, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585523.9573202, "value": 0.0}
+{"detail": "", "eval_id": 105, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585534.396816, "value": 0.0}
+{"detail": "", "eval_id": 110, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585544.576492, "value": 0.0}
+{"detail": "", "eval_id": 115, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585555.0702202, "value": 0.0}
+{"detail": "", "eval_id": 120, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585565.5324988, "value": 0.0}
+{"detail": "", "eval_id": 125, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585575.8848135, "value": 0.0}
+{"detail": "", "eval_id": 130, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585586.1631813, "value": 0.0}
+{"detail": "", "eval_id": 135, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585596.4601395, "value": 0.0}
+{"detail": "", "eval_id": 140, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585606.715882, "value": 0.0}
+{"detail": "", "eval_id": 145, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585617.7957628, "value": 0.0}
+{"detail": "", "eval_id": 150, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585628.2782807, "value": 0.0}
+{"detail": "", "eval_id": 155, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "C1-20261113-095839", "ts": 1794585638.8431444, "value": 0.0}

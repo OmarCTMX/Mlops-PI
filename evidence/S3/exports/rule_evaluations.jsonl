@@ -1,0 +1,13 @@
+{"detail": "1 < min_samples=5", "eval_id": 370, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-INFERR", "run_id": "S3-20261113-104951", "ts": 1794588591.9900239, "value": null}
+{"detail": "", "eval_id": 374, "n_samples": 5, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "S3-20261113-104951", "ts": 1794588594.6440485, "value": 0.0}
+{"detail": "", "eval_id": 379, "n_samples": 10, "outcome": "ok", "rule_id": "R-INFERR", "run_id": "S3-20261113-104951", "ts": 1794588604.7579381, "value": 0.0}
+{"detail": "1 < min_samples=6", "eval_id": 368, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-LOWCONF", "run_id": "S3-20261113-104951", "ts": 1794588591.9900239, "value": null}
+{"detail": "", "eval_id": 375, "n_samples": 6, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "S3-20261113-104951", "ts": 1794588595.255693, "value": 0.0}
+{"detail": "", "eval_id": 380, "n_samples": 10, "outcome": "ok", "rule_id": "R-LOWCONF", "run_id": "S3-20261113-104951", "ts": 1794588605.265301, "value": 0.0}
+{"detail": "1 < min_samples=10", "eval_id": 369, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-SHIFT", "run_id": "S3-20261113-104951", "ts": 1794588591.9900239, "value": null}
+{"detail": "consec=0", "eval_id": 376, "n_samples": 10, "outcome": "ok", "rule_id": "R-SHIFT", "run_id": "S3-20261113-104951", "ts": 1794588597.4097266, "value": -0.11228548515624603}
+{"detail": "", "eval_id": 372, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "S3-20261113-104951", "ts": 1794588591.9905088, "value": 0.08073043823242188}
+{"detail": "", "eval_id": 377, "n_samples": 1, "outcome": "ok", "rule_id": "R-STALE", "run_id": "S3-20261113-104951", "ts": 1794588602.947046, "value": 0.24178314208984375}
+{"detail": "1 < min_samples=5", "eval_id": 371, "n_samples": 1, "outcome": "insufficient_evidence", "rule_id": "R-VERSION", "run_id": "S3-20261113-104951", "ts": 1794588591.9900239, "value": null}
+{"detail": "", "eval_id": 373, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "S3-20261113-104951", "ts": 1794588594.054594, "value": 0.0}
+{"detail": "", "eval_id": 378, "n_samples": 5, "outcome": "ok", "rule_id": "R-VERSION", "run_id": "S3-20261113-104951", "ts": 1794588604.2616909, "value": 0.0}
