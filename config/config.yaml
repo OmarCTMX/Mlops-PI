@@ -44,10 +44,11 @@ model:
   topk: 5
 
 # ---------------------------------------------------------------- Política de confianza (R3)
-# 0 <= lower < upper <= 1. Valores provisionales hasta ejecutar el escenario REF
-# (scripts/justify_thresholds.py). Se congelan ANTES de C1/C2.
+# 0 <= lower < upper <= 1. Derivados del escenario REF (REF-20261113-094929, n=167):
+# superior = P25 (0.731 -> 0.70), inferior = P05 (0.619 -> 0.60). Ver evidence/REF/threshold_justification.md.
+# CONGELADOS antes de C1/C2: no se modifican para aprobar escenarios.
 thresholds:
-  lower: 0.40      # s <  lower          -> zona "low"   (baja confianza)
+  lower: 0.60      # s <  lower          -> zona "low"   (baja confianza)
   upper: 0.70      # lower <= s < upper  -> zona "doubt" (duda); s >= upper -> "accepted"
 
 reference:

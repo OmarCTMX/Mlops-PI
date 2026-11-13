@@ -112,7 +112,11 @@ def recalc_run(export_dir: str | Path, data_dir: str | Path, run_id: str) -> lis
         elif metric_id == "X5_confidence_psi":
             confs = np.array([e["confidence"] for e in scored], dtype=float)
             n = len(confs)
-            if reference and reference.get("hist_props") and n >= 30:
+            sdet = json.loads(stored.get("detail") or "{}")
+            # Solo se usa la referencia si el sistema la tenía disponible en T (la misma que registró)
+            ref_ok = (reference and reference.get("hist_props") and sdet.get("reason") != "sin_referencia"
+                      and sdet.get("reference_built_at", reference.get("built_at")) == reference.get("built_at"))
+            if ref_ok and n >= 30:
                 edges = np.array(reference["hist_edges"], dtype=float)
                 idx = np.clip(np.digitize(confs, edges[1:-1], right=False), 0, len(edges) - 2)
                 cur = np.bincount(idx, minlength=len(edges) - 1) / n

@@ -205,7 +205,8 @@ def compute_all(
     if reference and reference.get("hist_props") and len(confs) >= min_psi_samples:
         cur = histogram_props(confs, reference["hist_edges"])
         out.append(_res("X5_confidence_psi", psi(reference["hist_props"], cur), len(confs),
-                        {"bins": len(cur), "reference_n": reference.get("n"), "eps": 1e-4}, T))
+                        {"bins": len(cur), "reference_n": reference.get("n"), "eps": 1e-4,
+                         "reference_built_at": reference.get("built_at")}, T))
     else:
         reason = "sin_referencia" if not (reference and reference.get("hist_props")) else f"menos_de_{min_psi_samples}_muestras"
         out.append(_res("X5_confidence_psi", None, len(confs), {"reason": reason}, T))
